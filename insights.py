@@ -1817,7 +1817,6 @@ VENUE_INSIGHTS = {
     "Sawai Mansingh Stadium, Jaipur": {
         "insights": [
             "High-scoring venue with average score of 179.26 runs per match",
-            "Balanced bowling conditions favor both pace and spin bowlers",
             "Good boundary percentage of 20.18% supports aggressive batting",
             "Strong powerplay scoring with average of 101.47 runs",
             "Death overs average of 89.47 runs provides finishing opportunities"
@@ -1835,7 +1834,6 @@ VENUE_INSIGHTS = {
     "MA Chidambaram Stadium, Chepauk, Chennai": {
         "insights": [
             "Moderate scoring venue with average of 160.98 runs per match",
-            "Spin-friendly conditions with balanced bowling attack",
             "Lower boundary percentage of 16.31% requires smart batting",
             "Powerplay scoring average of 99.62 runs",
             "Death overs average of 78.33 runs demands strategic finishing"

@@ -7,6 +7,7 @@ from typing import List, Dict, Any, Optional
 import os
 from pathlib import Path
 from insights import PLAYER_INSIGHTS, TEAM_INSIGHTS, VENUE_INSIGHTS, OVERALL_BOWLING_AVERAGES
+from config import settings
 import uvicorn
 
 app = FastAPI(title="IPL Opposition Planning API", version="1.0.0")
@@ -14,7 +15,7 @@ app = FastAPI(title="IPL Opposition Planning API", version="1.0.0")
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=settings.CORS_ORIGINS,
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -28,8 +29,8 @@ TEAM_PLAYERS = {
         'Dwayne Bravo', 'Tushar Deshpande'
     ],
     'Mumbai Indians': [
-        'Ishan Kishan', 'Suryakumar Yadav', 'Tilak Varma', 'Tim David',
-        'Hardik Pandya', 'Rohit Sharma', 'Jasprit Bumrah', 
+        'Ishan Kishan', 'Rohit Sharma', 'Suryakumar Yadav', 'Tilak Varma', 'Tim David',
+        'Hardik Pandya',  'Jasprit Bumrah', 
         'Rahul Chahar', 'Tymal Mills', 'Kieron Pollard'
     ],
     'Royal Challengers Bangalore': [
@@ -58,9 +59,9 @@ TEAM_PLAYERS = {
         'Prasidh Krishna', 'Yuzvendra Chahal', 'Obed McCoy'
     ],
     'Sunrisers Hyderabad': [
-        'Kane Williamson', 'Aiden Markram', 'Nicholas Pooran',
-        'Abdul Samad', 'Abhishek Sharma', 'Washington Sundar', 'Bhuvneshwar Kumar', 
-        'T Natarajan', 'Umran Malik', 'Marco Jansen', 'Travis Head'
+        'Kane Williamson', 'Abhishek Sharma','Travis Head' 'Aiden Markram', 'Nicholas Pooran',
+        'Abdul Samad',  'Washington Sundar', 'Bhuvneshwar Kumar', 
+        'T Natarajan', 'Umran Malik', 'Marco Jansen'
     ],
     'Gujarat Titans': [
         'David Miller', 'Sai Sudharsan',
@@ -114,6 +115,15 @@ async def load_data():
 @app.get("/")
 async def root():
     return {"message": "IPL Opposition Planning API is running!"}
+
+@app.get("/config")
+async def get_config():
+    """Get API configuration"""
+    return {
+        "api_url": settings.api_url,
+        "environment": settings.ENVIRONMENT,
+        "version": "1.0.0"
+    }
 
 @app.get("/teams")
 async def get_teams():
@@ -438,4 +448,4 @@ async def get_team_bowling_stats(team_name: str):
     }
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host=settings.HOST, port=settings.PORT)
