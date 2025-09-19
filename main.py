@@ -251,5 +251,137 @@ async def get_team_scatter_plot_data():
     
     return {"team_scatter_data": team_scatter_data}
 
+@app.get("/player/{player_name}/bowling-stats")
+async def get_player_bowling_stats(player_name: str):
+    """Get player stats against different bowling types"""
+    if batter_vs_bowler_data is None:
+        # Return default stats if data not loaded
+        return {
+            "player": player_name,
+            "bowling_stats": {
+                "Left arm pace": 130.0,
+                "Right arm pace": 125.0,
+                "Off spin": 115.0,
+                "Leg spin": 120.0,
+                "Slow left arm orthodox": 110.0,
+                "Left arm wrist spin": 118.0
+            },
+            "overall_averages": OVERALL_BOWLING_AVERAGES.get("batter", {
+                "Left arm pace": 128.5,
+                "Right arm pace": 127.2,
+                "Off spin": 118.3,
+                "Leg spin": 122.1,
+                "Slow left arm orthodox": 112.8,
+                "Left arm wrist spin": 120.4
+            })
+        }
+    
+    player_stats = batter_vs_bowler_data[batter_vs_bowler_data['Batter_Name'] == player_name]
+    
+    if player_stats.empty:
+        # Return default stats if player not found
+        return {
+            "player": player_name,
+            "bowling_stats": {
+                "Left arm pace": 130.0,
+                "Right arm pace": 125.0,
+                "Off spin": 115.0,
+                "Leg spin": 120.0,
+                "Slow left arm orthodox": 110.0,
+                "Left arm wrist spin": 118.0
+            },
+            "overall_averages": OVERALL_BOWLING_AVERAGES.get("batter", {
+                "Left arm pace": 128.5,
+                "Right arm pace": 127.2,
+                "Off spin": 118.3,
+                "Leg spin": 122.1,
+                "Slow left arm orthodox": 112.8,
+                "Left arm wrist spin": 120.4
+            })
+        }
+    
+    bowling_stats = {}
+    for _, row in player_stats.iterrows():
+        bowling_stats[row['bowler.type']] = row['StrikeRate']
+    
+    return {
+        "player": player_name,
+        "bowling_stats": bowling_stats,
+        "overall_averages": OVERALL_BOWLING_AVERAGES.get("batter", {
+            "Left arm pace": 128.5,
+            "Right arm pace": 127.2,
+            "Off spin": 118.3,
+            "Leg spin": 122.1,
+            "Slow left arm orthodox": 112.8,
+            "Left arm wrist spin": 120.4
+        })
+    }
+
+@app.get("/team/{team_name}/bowling-stats")
+async def get_team_bowling_stats(team_name: str):
+    """Get team stats against different bowling types"""
+    if team_vs_bowler_data is None:
+        # Return default stats if data not loaded
+        return {
+            "team": team_name,
+            "bowling_stats": {
+                "Left arm pace": 135.0,
+                "Right arm pace": 132.0,
+                "Off spin": 125.0,
+                "Leg spin": 128.0,
+                "Slow left arm orthodox": 120.0,
+                "Left arm wrist spin": 126.0
+            },
+            "overall_averages": OVERALL_BOWLING_AVERAGES.get("team", {
+                "Left arm pace": 133.2,
+                "Right arm pace": 130.8,
+                "Off spin": 123.5,
+                "Leg spin": 126.7,
+                "Slow left arm orthodox": 118.9,
+                "Left arm wrist spin": 124.3
+            })
+        }
+    
+    team_stats = team_vs_bowler_data[team_vs_bowler_data['batting_team'] == team_name]
+    
+    if team_stats.empty:
+        # Return default stats if team not found
+        return {
+            "team": team_name,
+            "bowling_stats": {
+                "Left arm pace": 135.0,
+                "Right arm pace": 132.0,
+                "Off spin": 125.0,
+                "Leg spin": 128.0,
+                "Slow left arm orthodox": 120.0,
+                "Left arm wrist spin": 126.0
+            },
+            "overall_averages": OVERALL_BOWLING_AVERAGES.get("team", {
+                "Left arm pace": 133.2,
+                "Right arm pace": 130.8,
+                "Off spin": 123.5,
+                "Leg spin": 126.7,
+                "Slow left arm orthodox": 118.9,
+                "Left arm wrist spin": 124.3
+            })
+        }
+    
+    bowling_stats = {}
+    for _, row in team_stats.iterrows():
+        bowling_stats[row['bowling_type']] = row['strike_rate']
+    
+    return {
+        "team": team_name,
+        "bowling_stats": bowling_stats,
+        "overall_averages": OVERALL_BOWLING_AVERAGES.get("team", {
+            "Left arm pace": 133.2,
+            "Right arm pace": 130.8,
+            "Off spin": 123.5,
+            "Leg spin": 126.7,
+            "Slow left arm orthodox": 118.9,
+            "Left arm wrist spin": 124.3
+        })
+    }
+
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
