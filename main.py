@@ -7,40 +7,18 @@ from typing import List, Dict, Any, Optional
 import os
 from pathlib import Path
 from insights import PLAYER_INSIGHTS, TEAM_INSIGHTS, VENUE_INSIGHTS, OVERALL_BOWLING_AVERAGES
+import uvicorn
 
 app = FastAPI(title="IPL Opposition Planning API", version="1.0.0")
 
-# Enable CORS
+# Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins for deployment
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# Data directory path
-DATA_DIR = Path(__file__).parent / "data"
-
-# Load data on startup
-batting_data = None
-team_data = None
-batter_vs_bowler_data = None
-team_vs_bowler_data = None
-venue_data = None
-
-@app.on_event("startup")
-async def load_data():
-    global batting_data, team_data, batter_vs_bowler_data, team_vs_bowler_data, venue_data
-    try:
-        batting_data = pd.read_csv(DATA_DIR / "IPL_21_24_Batting.csv")
-        team_data = pd.read_csv(DATA_DIR / "IPL_Team_BattingData_21_24.csv")
-        batter_vs_bowler_data = pd.read_csv(DATA_DIR / "Batters_StrikeRateVSBowlerType.csv")
-        team_vs_bowler_data = pd.read_csv(DATA_DIR / "Team_vs_BowlingType.csv")
-        venue_data = pd.read_csv(DATA_DIR / "IPL_Venue_details.csv")
-        print("Data loaded successfully!")
-    except Exception as e:
-        print(f"Error loading data: {e}")
 
 # Team players mapping
 TEAM_PLAYERS = {
@@ -96,6 +74,43 @@ TEAM_PLAYERS = {
     ]
 }
 
+# Sample venues
+VENUES = [
+    "M. A. Chidambaram Stadium, Chennai",
+    "Wankhede Stadium, Mumbai",
+    "M. Chinnaswamy Stadium, Bangalore",
+    "Eden Gardens, Kolkata",
+    "Arun Jaitley Stadium, Delhi",
+    "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "Sawai Mansingh Stadium, Jaipur",
+    "Rajiv Gandhi International Stadium, Hyderabad",
+    "Narendra Modi Stadium, Ahmedabad",
+    "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow"
+]
+
+# Data directory path
+DATA_DIR = Path(__file__).parent / "data"
+
+# Load data on startup
+batting_data = None
+team_data = None
+batter_vs_bowler_data = None
+team_vs_bowler_data = None
+venue_data = None
+
+@app.on_event("startup")
+async def load_data():
+    global batting_data, team_data, batter_vs_bowler_data, team_vs_bowler_data, venue_data
+    try:
+        batting_data = pd.read_csv(DATA_DIR / "IPL_21_24_Batting.csv")
+        team_data = pd.read_csv(DATA_DIR / "IPL_Team_BattingData_21_24.csv")
+        batter_vs_bowler_data = pd.read_csv(DATA_DIR / "Batters_StrikeRateVSBowlerType.csv")
+        team_vs_bowler_data = pd.read_csv(DATA_DIR / "Team_vs_BowlingType.csv")
+        venue_data = pd.read_csv(DATA_DIR / "IPL_Venue_details.csv")
+        print("Data loaded successfully!")
+    except Exception as e:
+        print(f"Error loading data: {e}")
+
 @app.get("/")
 async def root():
     return {"message": "IPL Opposition Planning API is running!"}
@@ -115,11 +130,7 @@ async def get_team_players(team_name: str):
 @app.get("/venues")
 async def get_venues():
     """Get all venues"""
-    if venue_data is None:
-        raise HTTPException(status_code=500, detail="Venue data not loaded")
-    
-    venues = venue_data['venue'].unique().tolist()
-    return {"venues": venues}
+    return {"venues": VENUES}
 
 @app.get("/player/{player_name}/insights")
 async def get_player_insights(player_name: str):
@@ -184,60 +195,6 @@ async def get_venue_insights(venue_name: str):
             }
         }
 
-@app.get("/player/{player_name}/bowling-stats")
-async def get_player_bowling_stats(player_name: str):
-    """Get player stats against different bowling types"""
-    if batter_vs_bowler_data is None:
-        raise HTTPException(status_code=500, detail="Bowling stats data not loaded")
-    
-    player_stats = batter_vs_bowler_data[batter_vs_bowler_data['Batter_Name'] == player_name]
-    
-    if player_stats.empty:
-        # Return default stats if player not found
-        return {
-            "player": player_name,
-            "bowling_stats": {
-                "Left arm pace": 130.0,
-                "Right arm pace": 125.0,
-                "Off spin": 115.0,
-                "Leg spin": 120.0,
-                "Slow left arm orthodox": 110.0,
-                "Left arm wrist spin": 118.0
-            },
-            "overall_averages": OVERALL_BOWLING_AVERAGES["batter"]
-        }
-    
-    bowling_stats = {}
-    for _, row in player_stats.iterrows():
-        bowling_stats[row['bowler.type']] = row['StrikeRate']
-    
-    return {
-        "player": player_name,
-        "bowling_stats": bowling_stats,
-        "overall_averages": OVERALL_BOWLING_AVERAGES["batter"]
-    }
-
-@app.get("/team/{team_name}/bowling-stats")
-async def get_team_bowling_stats(team_name: str):
-    """Get team stats against different bowling types"""
-    if team_vs_bowler_data is None:
-        raise HTTPException(status_code=500, detail="Team bowling stats data not loaded")
-    
-    team_stats = team_vs_bowler_data[team_vs_bowler_data['batting_team'] == team_name]
-    
-    if team_stats.empty:
-        raise HTTPException(status_code=404, detail="Team bowling stats not found")
-    
-    bowling_stats = {}
-    for _, row in team_stats.iterrows():
-        bowling_stats[row['bowling_type']] = row['strike_rate']
-    
-    return {
-        "team": team_name,
-        "bowling_stats": bowling_stats,
-        "overall_averages": OVERALL_BOWLING_AVERAGES["team"]
-    }
-
 @app.get("/scatter-plot-data")
 async def get_scatter_plot_data():
     """Get scatter plot data for players"""
@@ -295,5 +252,4 @@ async def get_team_scatter_plot_data():
     return {"team_scatter_data": team_scatter_data}
 
 if __name__ == "__main__":
-    import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
