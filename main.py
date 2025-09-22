@@ -5,12 +5,70 @@ import pandas as pd
 import json
 from typing import List, Dict, Any, Optional
 import os
+import sys
 from pathlib import Path
+from contextlib import asynccontextmanager
 from insights import PLAYER_INSIGHTS, TEAM_INSIGHTS, VENUE_INSIGHTS, OVERALL_BOWLING_AVERAGES
 from config import settings
 import uvicorn
 
-app = FastAPI(title="IPL Opposition Planning API", version="1.0.0")
+# Global variables for data
+batting_data = None
+team_data = None
+batter_vs_bowler_data = None
+team_vs_bowler_data = None
+venue_data = None
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup
+    global batting_data, team_data, batter_vs_bowler_data, team_vs_bowler_data, venue_data
+    try:
+        print(f"Loading data from: {Path(__file__).parent / 'data'}")
+        data_dir = Path(__file__).parent / "data"
+        print(f"Data directory exists: {data_dir.exists()}")
+        
+        if data_dir.exists():
+            try:
+                batting_data = pd.read_csv(data_dir / "IPL_21_24_Batting.csv")
+                print("Loaded batting data successfully")
+            except Exception as e:
+                print(f"Error loading batting data: {e}")
+            
+            try:
+                team_data = pd.read_csv(data_dir / "IPL_Team_BattingData_21_24.csv")
+                print("Loaded team data successfully")
+            except Exception as e:
+                print(f"Error loading team data: {e}")
+            
+            try:
+                batter_vs_bowler_data = pd.read_csv(data_dir / "Batters_StrikeRateVSBowlerType.csv")
+                print("Loaded batter vs bowler data successfully")
+            except Exception as e:
+                print(f"Error loading batter vs bowler data: {e}")
+            
+            try:
+                team_vs_bowler_data = pd.read_csv(data_dir / "Team_vs_BowlingType.csv")
+                print("Loaded team vs bowler data successfully")
+            except Exception as e:
+                print(f"Error loading team vs bowler data: {e}")
+            
+            try:
+                venue_data = pd.read_csv(data_dir / "IPL_Venue_details.csv")
+                print("Loaded venue data successfully")
+            except Exception as e:
+                print(f"Error loading venue data: {e}")
+        else:
+            print("Data directory not found, using hardcoded data only")
+    except Exception as e:
+        print(f"Error during startup: {e}")
+        print("Continuing with hardcoded data only")
+    
+    yield
+    # Shutdown
+    print("Application shutting down")
+
+app = FastAPI(title="IPL Opposition Planning API", version="1.0.0", lifespan=lifespan)
 
 # Add CORS middleware
 app.add_middleware(
@@ -92,33 +150,6 @@ VENUES = [
 # Data directory path
 DATA_DIR = Path(__file__).parent / "data"
 
-# Load data on startup
-batting_data = None
-team_data = None
-batter_vs_bowler_data = None
-team_vs_bowler_data = None
-venue_data = None
-
-@app.on_event("startup")
-async def load_data():
-    global batting_data, team_data, batter_vs_bowler_data, team_vs_bowler_data, venue_data
-    try:
-        print(f"Loading data from: {DATA_DIR}")
-        print(f"Data directory exists: {DATA_DIR.exists()}")
-        
-        if DATA_DIR.exists():
-            batting_data = pd.read_csv(DATA_DIR / "IPL_21_24_Batting.csv")
-            team_data = pd.read_csv(DATA_DIR / "IPL_Team_BattingData_21_24.csv")
-            batter_vs_bowler_data = pd.read_csv(DATA_DIR / "Batters_StrikeRateVSBowlerType.csv")
-            team_vs_bowler_data = pd.read_csv(DATA_DIR / "Team_vs_BowlingType.csv")
-            venue_data = pd.read_csv(DATA_DIR / "IPL_Venue_details.csv")
-            print("Data loaded successfully!")
-        else:
-            print("Data directory not found, using hardcoded data only")
-    except Exception as e:
-        print(f"Error loading data: {e}")
-        print("Continuing with hardcoded data only")
-
 @app.get("/")
 async def root():
     return {"message": "IPL Opposition Planning API is running!", "status": "healthy"}
@@ -126,6 +157,25 @@ async def root():
 @app.get("/health")
 async def health_check():
     return {"status": "healthy", "message": "API is running"}
+
+@app.get("/debug")
+async def debug_info():
+    """Debug endpoint to check deployment status"""
+    return {
+        "status": "running",
+        "environment": settings.ENVIRONMENT,
+        "host": settings.HOST,
+        "port": settings.PORT,
+        "data_loaded": {
+            "batting_data": batting_data is not None,
+            "team_data": team_data is not None,
+            "batter_vs_bowler_data": batter_vs_bowler_data is not None,
+            "team_vs_bowler_data": team_vs_bowler_data is not None,
+            "venue_data": venue_data is not None
+        },
+        "data_dir_exists": DATA_DIR.exists(),
+        "python_version": sys.version
+    }
 
 @app.get("/config")
 async def get_config():
