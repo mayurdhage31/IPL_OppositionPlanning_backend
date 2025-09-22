@@ -1,0 +1,1260 @@
+,Unnamed: 0,Batter_Name,bowler.type,Runs,BallsFaced,StrikeRate
+1,2,Ayush Badoni,Left arm wrist spin,13,11,118.18
+2,3,Ayush Badoni,Left arm pace,118,81,145.68
+3,4,Ayush Badoni,Leg spin,70,62,112.9
+4,5,Ayush Badoni,Off spin,81,64,126.56
+5,6,Ayush Badoni,Right arm pace,336,239,140.59
+6,7,Ayush Badoni,Slow left arm orthodox,14,16,87.5
+7,8,A Kamboj,Right arm pace,2,2,100.0
+9,10,Abhinav Manohar,Left arm wrist spin,10,14,71.43
+10,11,Abhinav Manohar,Left arm pace,50,37,135.14
+11,12,Abhinav Manohar,Leg spin,51,32,159.38
+12,13,Abhinav Manohar,Off spin,11,16,68.75
+13,14,Abhinav Manohar,Right arm pace,90,56,160.71
+14,15,Abhinav Manohar,Slow left arm orthodox,15,17,88.24
+15,16,Amit Mishra,Leg spin,1,11,9.09
+16,17,Amit Mishra,Right arm pace,17,18,94.44
+17,18,Amit Mishra,Slow left arm orthodox,1,1,100.0
+18,19,Anrich Nortje,Left arm pace,11,10,110.0
+19,20,Anrich Nortje,Leg spin,1,3,33.33
+20,21,Anrich Nortje,Off spin,1,5,20.0
+21,22,Anrich Nortje,Right arm pace,29,25,116.0
+22,23,Angkrish Raghuvanshi,Left arm pace,32,18,177.78
+23,24,Angkrish Raghuvanshi,Leg spin,26,18,144.44
+24,25,Angkrish Raghuvanshi,Off spin,10,6,166.67
+25,26,Angkrish Raghuvanshi,Right arm pace,85,53,160.38
+26,27,Angkrish Raghuvanshi,Slow left arm orthodox,10,10,100.0
+27,28,Abhijeet Tomar,Left arm pace,0,2,0.0
+28,29,Abhijeet Tomar,Right arm pace,4,6,66.67
+29,30,Adam Zampa,Left arm wrist spin,1,2,50.0
+30,31,Adam Zampa,Leg spin,2,4,50.0
+31,32,Adam Zampa,Off spin,2,5,40.0
+32,33,Adam Zampa,Right arm pace,5,5,100.0
+33,34,AA Kulkarni,Left arm pace,4,4,100.0
+34,35,AA Kulkarni,Right arm pace,5,4,125.0
+35,36,AB de Villiers,Left arm pace,23,12,191.67
+36,37,AB de Villiers,Leg spin,54,43,125.58
+37,38,AB de Villiers,Off spin,24,12,200.0
+38,39,AB de Villiers,Right arm pace,191,117,163.25
+39,40,AB de Villiers,Slow left arm orthodox,21,27,77.78
+40,41,Andre Russell,Left arm wrist spin,10,15,66.67
+41,42,Andre Russell,Left arm pace,230,133,172.93
+42,43,Andre Russell,Leg spin,150,102,147.06
+43,44,Andre Russell,Off spin,31,19,163.16
+44,45,Andre Russell,Right arm pace,462,270,171.11
+45,46,Andre Russell,Slow left arm orthodox,84,52,161.54
+46,47,Adam Milne,Off spin,1,1,100.0
+47,48,Adam Milne,Right arm pace,15,16,93.75
+48,49,Aaron Finch,Left arm pace,29,27,107.41
+49,50,Aaron Finch,Leg spin,13,4,325.0
+50,51,Aaron Finch,Off spin,7,3,233.33
+51,52,Aaron Finch,Right arm pace,37,27,137.04
+52,53,Akeal Hosein,Right arm pace,16,10,160.0
+53,54,Ashton Turner,Leg spin,13,4,325.0
+54,55,Ashton Turner,Off spin,3,4,75.0
+55,56,Ashton Turner,Right arm pace,5,10,50.0
+56,57,Aiden Markram,Left arm wrist spin,40,30,133.33
+57,58,Aiden Markram,Left arm pace,99,92,107.61
+58,59,Aiden Markram,Leg spin,240,168,142.86
+59,60,Aiden Markram,Off spin,110,100,110.0
+60,61,Aiden Markram,Right arm pace,424,302,140.4
+61,62,Aiden Markram,Slow left arm orthodox,82,76,107.89
+62,63,Ajinkya Rahane,Left arm wrist spin,12,14,85.71
+63,64,Ajinkya Rahane,Left arm pace,197,126,156.35
+64,65,Ajinkya Rahane,Leg spin,132,90,146.67
+65,66,Ajinkya Rahane,Off spin,40,34,117.65
+66,67,Ajinkya Rahane,Right arm pace,261,189,138.1
+67,68,Ajinkya Rahane,Slow left arm orthodox,67,70,95.71
+68,69,Axar Patel,Left arm wrist spin,28,16,175.0
+69,70,Axar Patel,Left arm pace,100,64,156.25
+70,71,Axar Patel,Leg spin,146,115,126.96
+71,72,Axar Patel,Off spin,80,63,126.98
+72,73,Axar Patel,Right arm pace,356,271,131.37
+73,74,Axar Patel,Slow left arm orthodox,30,19,157.89
+74,75,Alzarri Joseph,Left arm pace,4,4,100.0
+75,76,Alzarri Joseph,Right arm pace,7,14,50.0
+76,77,Alzarri Joseph,Slow left arm orthodox,1,1,100.0
+77,78,Anukul Roy,Left arm wrist spin,0,1,0.0
+78,79,Anukul Roy,Left arm pace,8,10,80.0
+79,80,Anukul Roy,Leg spin,4,4,100.0
+80,81,Anukul Roy,Right arm pace,14,9,155.56
+82,83,Ambati Rayudu,Left arm wrist spin,6,8,75.0
+83,84,Ambati Rayudu,Left arm pace,102,74,137.84
+84,85,Ambati Rayudu,Leg spin,135,106,127.36
+85,86,Ambati Rayudu,Off spin,76,66,115.15
+86,87,Ambati Rayudu,Right arm pace,331,224,147.77
+87,88,Ambati Rayudu,Slow left arm orthodox,32,26,123.08
+88,89,Adil Rashid,Leg spin,9,8,112.5
+89,90,Adil Rashid,Off spin,6,3,200.0
+90,91,Adil Rashid,Right arm pace,7,5,140.0
+91,92,Abdul Basith,Right arm pace,1,1,100.0
+92,93,Abdul Samad,Left arm wrist spin,8,3,266.67
+93,94,Abdul Samad,Left arm pace,76,36,211.11
+94,95,Abdul Samad,Leg spin,58,56,103.57
+95,96,Abdul Samad,Off spin,26,25,104.0
+96,97,Abdul Samad,Right arm pace,272,173,157.23
+97,98,Abdul Samad,Slow left arm orthodox,26,38,68.42
+98,99,Abhishek Sharma,Left arm wrist spin,43,19,226.32
+99,100,Abhishek Sharma,Left arm pace,241,160,150.62
+100,101,Abhishek Sharma,Leg spin,207,113,183.19
+101,102,Abhishek Sharma,Off spin,169,99,170.71
+102,103,Abhishek Sharma,Right arm pace,504,352,143.18
+103,104,Abhishek Sharma,Slow left arm orthodox,63,47,134.04
+105,106,Abhishek Porel,Left arm pace,74,44,168.18
+106,107,Abhishek Porel,Leg spin,44,43,102.33
+107,108,Abhishek Porel,Off spin,22,24,91.67
+108,109,Abhishek Porel,Right arm pace,193,114,169.3
+109,110,Abhishek Porel,Slow left arm orthodox,27,11,245.45
+110,111,Akash Deep,Leg spin,13,7,185.71
+111,112,Akash Deep,Off spin,4,1,400.0
+112,113,Akash Deep,Right arm pace,2,2,100.0
+113,114,Akash Deep,Slow left arm orthodox,0,2,0.0
+114,115,Akash Madhwal,Left arm pace,1,2,50.0
+115,116,Akash Madhwal,Right arm pace,3,3,100.0
+116,117,Aman Hakim Khan,Left arm wrist spin,9,14,64.29
+117,118,Aman Hakim Khan,Left arm pace,26,17,152.94
+118,119,Aman Hakim Khan,Leg spin,22,27,81.48
+119,120,Aman Hakim Khan,Off spin,6,5,120.0
+120,121,Aman Hakim Khan,Right arm pace,51,37,137.84
+121,122,Aman Hakim Khan,Slow left arm orthodox,1,5,20.0
+122,123,Anmolpreet Singh,Left arm wrist spin,4,6,66.67
+123,124,Anmolpreet Singh,Left arm pace,18,13,138.46
+124,125,Anmolpreet Singh,Leg spin,15,15,100.0
+125,126,Anmolpreet Singh,Off spin,6,4,150.0
+126,127,Anmolpreet Singh,Right arm pace,81,66,122.73
+127,128,Anmolpreet Singh,Slow left arm orthodox,15,11,136.36
+128,129,Anuj Rawat,Left arm wrist spin,2,8,25.0
+129,130,Anuj Rawat,Left arm pace,65,51,127.45
+130,131,Anuj Rawat,Leg spin,33,28,117.86
+131,132,Anuj Rawat,Off spin,18,31,58.06
+132,133,Anuj Rawat,Right arm pace,191,140,136.43
+133,134,Anuj Rawat,Slow left arm orthodox,9,11,81.82
+134,135,Arjun Tendulkar,Left arm pace,3,3,100.0
+135,136,Arjun Tendulkar,Right arm pace,10,6,166.67
+136,137,Arshad Khan,Left arm wrist spin,18,12,150.0
+137,138,Arshad Khan,Left arm pace,22,9,244.44
+138,139,Arshad Khan,Right arm pace,53,38,139.47
+139,140,Arshad Khan,Slow left arm orthodox,3,6,50.0
+140,141,Arshad Khan (2),Left arm pace,5,4,125.0
+141,142,Arshdeep Singh,Left arm pace,9,13,69.23
+142,143,Arshdeep Singh,Off spin,0,1,0.0
+143,144,Arshdeep Singh,Right arm pace,20,21,95.24
+144,145,Arshdeep Singh,Slow left arm orthodox,0,3,0.0
+145,146,Ashutosh Sharma,Left arm wrist spin,2,3,66.67
+146,147,Ashutosh Sharma,Left arm pace,27,14,192.86
+147,148,Ashutosh Sharma,Leg spin,11,8,137.5
+148,149,Ashutosh Sharma,Right arm pace,146,78,187.18
+149,150,Ashutosh Sharma,Slow left arm orthodox,3,10,30.0
+150,151,Atharva Taide,Left arm wrist spin,7,8,87.5
+151,152,Atharva Taide,Left arm pace,32,27,118.52
+152,153,Atharva Taide,Leg spin,33,24,137.5
+153,154,Atharva Taide,Off spin,3,4,75.0
+154,155,Atharva Taide,Right arm pace,137,84,163.1
+155,156,Atharva Taide,Slow left arm orthodox,35,22,159.09
+156,157,Avesh Khan,Left arm pace,2,2,100.0
+157,158,Avesh Khan,Leg spin,18,5,360.0
+158,159,Avesh Khan,Right arm pace,17,15,113.33
+159,160,Azmatullah Omarzai,Left arm wrist spin,1,1,100.0
+160,161,Azmatullah Omarzai,Left arm pace,1,1,100.0
+161,162,Azmatullah Omarzai,Leg spin,13,7,185.71
+162,163,Azmatullah Omarzai,Off spin,5,2,250.0
+163,164,Azmatullah Omarzai,Right arm pace,11,10,110.0
+164,165,Azmatullah Omarzai,Slow left arm orthodox,11,12,91.67
+165,166,Baba Indrajith,Left arm wrist spin,0,1,0.0
+166,167,Baba Indrajith,Left arm pace,9,18,50.0
+167,168,Baba Indrajith,Right arm pace,9,8,112.5
+168,169,Baba Indrajith,Slow left arm orthodox,3,3,100.0
+169,170,Bhuvneshwar Kumar,Left arm wrist spin,14,11,127.27
+170,171,Bhuvneshwar Kumar,Left arm pace,26,24,108.33
+171,172,Bhuvneshwar Kumar,Leg spin,15,20,75.0
+172,173,Bhuvneshwar Kumar,Off spin,2,5,40.0
+173,174,Bhuvneshwar Kumar,Right arm pace,66,72,91.67
+174,175,Sai Sudharsan,Left arm wrist spin,22,19,115.79
+175,176,Sai Sudharsan,Left arm pace,150,123,121.95
+176,177,Sai Sudharsan,Leg spin,152,107,142.06
+177,178,Sai Sudharsan,Off spin,86,57,150.88
+178,179,Sai Sudharsan,Right arm pace,471,338,139.35
+179,180,Sai Sudharsan,Slow left arm orthodox,153,103,148.54
+180,181,Ben Stokes,Leg spin,7,6,116.67
+181,182,Ben Stokes,Right arm pace,8,11,72.73
+182,183,BR Sharath,Leg spin,1,3,33.33
+183,184,BR Sharath,Slow left arm orthodox,1,2,50.0
+184,185,Cameron Green,Left arm wrist spin,55,30,183.33
+185,186,Cameron Green,Left arm pace,145,82,176.83
+186,187,Cameron Green,Leg spin,99,71,139.44
+187,188,Cameron Green,Off spin,69,51,135.29
+188,189,Cameron Green,Right arm pace,259,165,156.97
+189,190,Cameron Green,Slow left arm orthodox,80,61,131.15
+190,191,Chetan Sakariya,Left arm pace,5,3,166.67
+191,192,Chetan Sakariya,Leg spin,0,1,0.0
+192,193,Chetan Sakariya,Off spin,1,6,16.67
+193,194,Chetan Sakariya,Right arm pace,14,21,66.67
+194,195,Chris Lynn,Leg spin,13,11,118.18
+195,196,Chris Lynn,Off spin,5,3,166.67
+196,197,Chris Lynn,Right arm pace,19,17,111.76
+197,198,Chris Lynn,Slow left arm orthodox,12,4,300.0
+198,199,Chris Gayle,Left arm pace,29,23,126.09
+199,200,Chris Gayle,Leg spin,46,33,139.39
+200,201,Chris Gayle,Off spin,17,19,89.47
+201,202,Chris Gayle,Right arm pace,95,74,128.38
+202,203,Chris Gayle,Slow left arm orthodox,6,5,120.0
+203,204,Chris Morris,Left arm pace,5,4,125.0
+204,205,Chris Morris,Leg spin,1,3,33.33
+205,206,Chris Morris,Off spin,0,2,0.0
+206,207,Chris Morris,Right arm pace,61,40,152.5
+207,208,Chris Jordan,Left arm pace,2,5,40.0
+208,209,Chris Jordan,Leg spin,11,14,78.57
+209,210,Chris Jordan,Off spin,2,3,66.67
+210,211,Chris Jordan,Right arm pace,34,19,178.95
+211,212,Chris Woakes,Left arm pace,13,7,185.71
+212,213,Chris Woakes,Leg spin,2,4,50.0
+213,214,Varun Chakravarthy,Left arm wrist spin,1,3,33.33
+214,215,Varun Chakravarthy,Left arm pace,1,1,100.0
+215,216,Varun Chakravarthy,Leg spin,0,3,0.0
+216,217,Varun Chakravarthy,Off spin,0,3,0.0
+217,218,Varun Chakravarthy,Right arm pace,13,21,61.9
+218,219,Dewald Brevis,Left arm wrist spin,22,16,137.5
+219,220,Dewald Brevis,Left arm pace,19,21,90.48
+220,221,Dewald Brevis,Leg spin,56,31,180.65
+221,222,Dewald Brevis,Off spin,2,2,100.0
+222,223,Dewald Brevis,Right arm pace,96,71,135.21
+223,224,Dewald Brevis,Slow left arm orthodox,35,32,109.38
+224,225,Donovan Ferreira,Left arm wrist spin,0,1,0.0
+225,226,Donovan Ferreira,Left arm pace,1,2,50.0
+226,227,Donovan Ferreira,Leg spin,1,3,33.33
+227,228,Donovan Ferreira,Right arm pace,6,5,120.0
+228,229,Devdutt Padikkal,Left arm wrist spin,12,12,100.0
+229,230,Devdutt Padikkal,Left arm pace,203,152,133.55
+230,231,Devdutt Padikkal,Leg spin,155,128,121.09
+231,232,Devdutt Padikkal,Off spin,88,86,102.33
+232,233,Devdutt Padikkal,Right arm pace,523,441,118.59
+233,234,Devdutt Padikkal,Slow left arm orthodox,105,71,147.89
+234,235,Dwaine Pretorius,Left arm pace,8,4,200.0
+235,236,Dwaine Pretorius,Leg spin,8,4,200.0
+236,237,Dwaine Pretorius,Right arm pace,28,20,140.0
+237,238,David Wiese,Left arm wrist spin,0,3,0.0
+238,239,David Wiese,Left arm pace,7,2,350.0
+239,240,David Wiese,Right arm pace,14,6,233.33
+240,241,David Miller,Left arm wrist spin,14,14,100.0
+241,242,David Miller,Left arm pace,118,98,120.41
+242,243,David Miller,Leg spin,166,105,158.1
+243,244,David Miller,Off spin,142,105,135.24
+244,245,David Miller,Right arm pace,569,396,143.69
+245,246,David Miller,Slow left arm orthodox,65,50,130.0
+246,247,David Warner,Left arm pace,240,171,140.35
+247,248,David Warner,Leg spin,159,122,130.33
+248,249,David Warner,Off spin,165,139,118.71
+249,250,David Warner,Right arm pace,650,497,130.78
+250,251,David Warner,Slow left arm orthodox,99,61,162.3
+251,252,Darshan Nalkande,Leg spin,2,2,100.0
+252,253,Darshan Nalkande,Right arm pace,0,1,0.0
+253,254,Darshan Nalkande,Slow left arm orthodox,10,9,111.11
+254,255,Dwayne Bravo,Left arm pace,29,12,241.67
+255,256,Dwayne Bravo,Leg spin,0,1,0.0
+256,257,Dwayne Bravo,Off spin,1,1,100.0
+257,258,Dwayne Bravo,Right arm pace,31,23,134.78
+258,259,Dwayne Bravo,Slow left arm orthodox,9,6,150.0
+260,261,Deepak Hooda,Left arm wrist spin,22,17,129.41
+261,262,Deepak Hooda,Left arm pace,182,130,140.0
+262,263,Deepak Hooda,Leg spin,180,127,141.73
+263,264,Deepak Hooda,Off spin,50,47,106.38
+264,265,Deepak Hooda,Right arm pace,320,258,124.03
+265,266,Deepak Hooda,Slow left arm orthodox,78,66,118.18
+266,267,Dawid Malan,Off spin,8,8,100.0
+267,268,Dawid Malan,Right arm pace,14,10,140.0
+268,269,Dawid Malan,Slow left arm orthodox,4,8,50.0
+269,270,Daryl Mitchell,Left arm wrist spin,4,4,100.0
+270,271,Daryl Mitchell,Left arm pace,64,56,114.29
+271,272,Daryl Mitchell,Leg spin,51,31,164.52
+272,273,Daryl Mitchell,Off spin,32,21,152.38
+273,274,Daryl Mitchell,Right arm pace,149,115,129.57
+274,275,Daryl Mitchell,Slow left arm orthodox,51,41,124.39
+275,276,David Willey,Leg spin,19,23,82.61
+276,277,David Willey,Off spin,7,14,50.0
+277,278,David Willey,Right arm pace,27,26,103.85
+278,279,Deepak Chahar,Off spin,1,1,100.0
+279,280,Deepak Chahar,Right arm pace,1,2,50.0
+281,282,Devon Conway,Left arm wrist spin,79,49,161.22
+282,283,Devon Conway,Left arm pace,185,109,169.72
+283,284,Devon Conway,Leg spin,151,106,142.45
+284,285,Devon Conway,Off spin,112,79,141.77
+285,286,Devon Conway,Right arm pace,332,269,123.42
+286,287,Devon Conway,Slow left arm orthodox,60,37,162.16
+287,288,Daniel Sams,Left arm pace,1,6,16.67
+288,289,Daniel Sams,Leg spin,3,4,75.0
+289,290,Daniel Sams,Off spin,18,8,225.0
+290,291,Daniel Sams,Right arm pace,22,22,100.0
+291,292,Daniel Sams,Slow left arm orthodox,0,2,0.0
+292,293,Dan Christian,Left arm pace,2,4,50.0
+293,294,Dan Christian,Leg spin,2,3,66.67
+294,295,Dan Christian,Right arm pace,10,16,62.5
+295,296,Dan Christian,Slow left arm orthodox,0,1,0.0
+296,297,Dhruv Jurel,Left arm wrist spin,19,12,158.33
+297,298,Dhruv Jurel,Left arm pace,79,56,141.07
+298,299,Dhruv Jurel,Leg spin,34,18,188.89
+299,300,Dhruv Jurel,Off spin,13,14,92.86
+300,301,Dhruv Jurel,Right arm pace,165,98,168.37
+301,302,Dhruv Jurel,Slow left arm orthodox,37,32,115.62
+302,303,Evin Lewis,Left arm wrist spin,3,5,60.0
+303,304,Evin Lewis,Left arm pace,38,25,152.0
+304,305,Evin Lewis,Leg spin,2,3,66.67
+305,306,Evin Lewis,Off spin,26,25,104.0
+306,307,Evin Lewis,Right arm pace,155,91,170.33
+307,308,Eoin Morgan,Left arm pace,12,13,92.31
+308,309,Eoin Morgan,Leg spin,20,25,80.0
+309,310,Eoin Morgan,Off spin,38,27,140.74
+310,311,Eoin Morgan,Right arm pace,55,69,79.71
+311,312,Eoin Morgan,Slow left arm orthodox,8,7,114.29
+312,313,Faf du Plessis,Left arm wrist spin,8,10,80.0
+313,314,Faf du Plessis,Left arm pace,463,314,147.45
+314,315,Faf du Plessis,Leg spin,319,260,122.69
+315,316,Faf du Plessis,Off spin,126,115,109.57
+316,317,Faf du Plessis,Right arm pace,1056,662,159.52
+317,318,Faf du Plessis,Slow left arm orthodox,277,204,135.78
+319,320,Fabian Allen,Left arm pace,1,2,50.0
+320,321,Fabian Allen,Leg spin,7,6,116.67
+321,322,Fabian Allen,Right arm pace,5,10,50.0
+322,323,Fabian Allen,Slow left arm orthodox,1,1,100.0
+323,324,Fazalhaq Farooqi,Leg spin,1,5,20.0
+324,325,Fazalhaq Farooqi,Right arm pace,2,8,25.0
+325,326,Gerald Coetzee,Left arm pace,3,9,33.33
+326,327,Gerald Coetzee,Leg spin,1,5,20.0
+327,328,Gerald Coetzee,Off spin,2,2,100.0
+328,329,Gerald Coetzee,Right arm pace,8,6,133.33
+329,330,Glenn Phillips,Left arm pace,35,10,350.0
+330,331,Glenn Phillips,Leg spin,3,3,100.0
+331,332,Glenn Phillips,Off spin,8,6,133.33
+332,333,Glenn Phillips,Right arm pace,19,35,54.29
+333,334,Glenn Phillips,Slow left arm orthodox,0,1,0.0
+334,335,George Garton,Right arm pace,2,4,50.0
+335,336,Glenn Maxwell,Left arm wrist spin,34,12,283.33
+336,337,Glenn Maxwell,Left arm pace,157,106,148.11
+337,338,Glenn Maxwell,Leg spin,289,165,175.15
+338,339,Glenn Maxwell,Off spin,114,75,152.0
+339,340,Glenn Maxwell,Right arm pace,492,315,156.19
+340,341,Glenn Maxwell,Slow left arm orthodox,180,125,144.0
+341,342,Gulbadin Naib,Left arm pace,1,2,50.0
+342,343,Gulbadin Naib,Leg spin,13,5,260.0
+343,344,Gulbadin Naib,Off spin,3,4,75.0
+344,345,Gulbadin Naib,Right arm pace,2,4,50.0
+345,346,Heinrich Klaasen,Left arm wrist spin,66,28,235.71
+346,347,Heinrich Klaasen,Left arm pace,112,62,180.65
+347,348,Heinrich Klaasen,Leg spin,211,107,197.2
+348,349,Heinrich Klaasen,Off spin,58,42,138.1
+349,350,Heinrich Klaasen,Right arm pace,327,210,155.71
+350,351,Heinrich Klaasen,Slow left arm orthodox,153,84,182.14
+351,352,Harry Brook,Left arm pace,34,36,94.44
+352,353,Harry Brook,Leg spin,44,32,137.5
+353,354,Harry Brook,Off spin,12,12,100.0
+354,355,Harry Brook,Right arm pace,93,68,136.76
+355,356,Harry Brook,Slow left arm orthodox,7,8,87.5
+356,357,Rassie van der Dussen,Left arm pace,3,4,75.0
+357,358,Rassie van der Dussen,Leg spin,1,3,33.33
+358,359,Rassie van der Dussen,Off spin,0,1,0.0
+359,360,Rassie van der Dussen,Right arm pace,18,16,112.5
+360,361,Hardik Pandya,Left arm wrist spin,36,26,138.46
+361,362,Hardik Pandya,Left arm pace,176,150,117.33
+362,363,Hardik Pandya,Leg spin,234,163,143.56
+363,364,Hardik Pandya,Off spin,127,87,145.98
+364,365,Hardik Pandya,Right arm pace,528,381,138.58
+365,366,Hardik Pandya,Slow left arm orthodox,75,82,91.46
+366,367,Hrithik Shokeen,Left arm pace,0,5,0.0
+367,368,Hrithik Shokeen,Leg spin,5,2,250.0
+368,369,Hrithik Shokeen,Off spin,6,7,85.71
+369,370,Hrithik Shokeen,Right arm pace,32,31,103.23
+370,371,Hrithik Shokeen,Slow left arm orthodox,23,20,115.0
+371,372,Harshal Patel,Left arm pace,7,9,77.78
+372,373,Harshal Patel,Leg spin,21,20,105.0
+373,374,Harshal Patel,Off spin,6,3,200.0
+374,375,Harshal Patel,Right arm pace,77,62,124.19
+375,376,Harshal Patel,Slow left arm orthodox,10,16,62.5
+376,377,Harbhajan Singh,Left arm pace,2,2,100.0
+377,378,Harbhajan Singh,Right arm pace,2,2,100.0
+378,379,Harpreet Brar,Left arm wrist spin,0,2,0.0
+379,380,Harpreet Brar,Left arm pace,17,11,154.55
+380,381,Harpreet Brar,Leg spin,19,29,65.52
+381,382,Harpreet Brar,Off spin,12,11,109.09
+382,383,Harpreet Brar,Right arm pace,143,115,124.35
+383,384,Harpreet Brar,Slow left arm orthodox,22,12,183.33
+384,385,Harpreet Singh,Left arm pace,25,9,277.78
+385,386,Harpreet Singh,Leg spin,4,8,50.0
+386,387,Harpreet Singh,Off spin,18,20,90.0
+387,388,Harpreet Singh,Right arm pace,39,44,88.64
+388,389,Harpreet Singh,Slow left arm orthodox,17,12,141.67
+389,390,Harshit Rana,Left arm pace,0,2,0.0
+390,391,Harshit Rana,Right arm pace,2,1,200.0
+391,392,Ishant Sharma,Right arm pace,2,8,25.0
+392,393,Ishan Kishan,Left arm wrist spin,26,19,136.84
+393,394,Ishan Kishan,Left arm pace,315,208,151.44
+394,395,Ishan Kishan,Leg spin,165,134,123.13
+395,396,Ishan Kishan,Off spin,180,162,111.11
+396,397,Ishan Kishan,Right arm pace,617,457,135.01
+397,398,Ishan Kishan,Slow left arm orthodox,130,84,154.76
+398,399,Jake Fraser-McGurk,Left arm pace,72,35,205.71
+399,400,Jake Fraser-McGurk,Leg spin,36,17,211.76
+400,401,Jake Fraser-McGurk,Off spin,30,8,375.0
+401,402,Jake Fraser-McGurk,Right arm pace,166,71,233.8
+402,403,Jake Fraser-McGurk,Slow left arm orthodox,26,11,236.36
+403,404,Jagadeesha Suchith,Leg spin,2,4,50.0
+404,405,Jagadeesha Suchith,Right arm pace,14,10,140.0
+405,406,Jayant Yadav,Leg spin,4,4,100.0
+406,407,Jayant Yadav,Off spin,16,9,177.78
+407,408,Jayant Yadav,Right arm pace,14,13,107.69
+408,409,Jhye Richardson,Left arm pace,0,2,0.0
+409,410,Jhye Richardson,Off spin,2,4,50.0
+410,411,Jhye Richardson,Right arm pace,8,9,88.89
+411,412,Jhye Richardson,Slow left arm orthodox,7,11,63.64
+412,413,Jofra Archer,Left arm pace,1,2,50.0
+413,414,Jofra Archer,Right arm pace,3,2,150.0
+414,415,Jos Buttler,Left arm wrist spin,51,28,182.14
+415,416,Jos Buttler,Left arm pace,385,260,148.08
+416,417,Jos Buttler,Leg spin,202,147,137.41
+417,418,Jos Buttler,Off spin,202,111,181.98
+418,419,Jos Buttler,Right arm pace,888,640,138.75
+419,420,Jos Buttler,Slow left arm orthodox,140,101,138.61
+420,421,Jaydev Unadkat,Left arm pace,24,14,171.43
+421,422,Jaydev Unadkat,Leg spin,3,5,60.0
+422,423,Jaydev Unadkat,Off spin,6,10,60.0
+423,424,Jaydev Unadkat,Right arm pace,98,67,146.27
+424,425,Jaydev Unadkat,Slow left arm orthodox,2,3,66.67
+425,426,James Neesham,Left arm pace,1,2,50.0
+426,427,James Neesham,Leg spin,16,14,114.29
+427,428,James Neesham,Right arm pace,8,7,114.29
+428,429,James Neesham,Slow left arm orthodox,6,6,100.0
+429,430,Joe Root,Left arm pace,4,8,50.0
+430,431,Joe Root,Off spin,1,1,100.0
+431,432,Joe Root,Right arm pace,5,6,83.33
+432,433,Jasprit Bumrah,Left arm pace,1,2,50.0
+433,434,Jasprit Bumrah,Leg spin,1,6,16.67
+434,435,Jasprit Bumrah,Off spin,1,1,100.0
+435,436,Jasprit Bumrah,Right arm pace,25,26,96.15
+436,437,Jasprit Bumrah,Slow left arm orthodox,0,2,0.0
+437,438,Jason Roy,Left arm wrist spin,8,7,114.29
+438,439,Jason Roy,Left arm pace,63,47,134.04
+439,440,Jason Roy,Leg spin,59,34,173.53
+440,441,Jason Roy,Off spin,48,17,282.35
+441,442,Jason Roy,Right arm pace,180,156,115.38
+442,443,Jason Roy,Slow left arm orthodox,77,50,154.0
+443,444,Jonny Bairstow,Left arm wrist spin,0,1,0.0
+444,445,Jonny Bairstow,Left arm pace,168,102,164.71
+445,446,Jonny Bairstow,Leg spin,99,75,132.0
+446,447,Jonny Bairstow,Off spin,70,52,134.62
+447,448,Jonny Bairstow,Right arm pace,348,228,152.63
+448,449,Jonny Bairstow,Slow left arm orthodox,114,87,131.03
+449,450,Jitesh Sharma,Left arm wrist spin,34,29,117.24
+450,451,Jitesh Sharma,Left arm pace,126,73,172.6
+451,452,Jitesh Sharma,Leg spin,140,94,148.94
+452,453,Jitesh Sharma,Off spin,38,27,140.74
+453,454,Jitesh Sharma,Right arm pace,312,209,149.28
+454,455,Jitesh Sharma,Slow left arm orthodox,80,52,153.85
+455,456,Jason Holder,Left arm pace,18,21,85.71
+456,457,Jason Holder,Leg spin,24,20,120.0
+457,458,Jason Holder,Off spin,3,10,30.0
+458,459,Jason Holder,Right arm pace,108,71,152.11
+459,460,Jason Holder,Slow left arm orthodox,2,5,40.0
+460,461,Jason Behrendorff,Left arm pace,3,6,50.0
+461,462,Jason Behrendorff,Right arm pace,3,3,100.0
+462,463,Josh Hazlewood,Left arm pace,10,11,90.91
+463,464,Josh Hazlewood,Right arm pace,9,17,52.94
+464,465,Krishnappa Gowtham,Left arm pace,7,4,175.0
+465,466,Krishnappa Gowtham,Leg spin,23,14,164.29
+466,467,Krishnappa Gowtham,Right arm pace,31,20,155.0
+467,468,Kumar Kartikeya,Left arm pace,5,3,166.67
+468,469,Kumar Kartikeya,Right arm pace,4,9,44.44
+469,470,Kagiso Rabada,Left arm wrist spin,1,2,50.0
+470,471,Kagiso Rabada,Left arm pace,9,6,150.0
+471,472,Kagiso Rabada,Leg spin,2,6,33.33
+472,473,Kagiso Rabada,Right arm pace,68,47,144.68
+473,474,Kagiso Rabada,Slow left arm orthodox,1,4,25.0
+474,475,Kuldip Yadav,Right arm pace,0,4,0.0
+475,476,Kyle Jamieson,Left arm pace,7,7,100.0
+476,477,Kyle Jamieson,Leg spin,7,7,100.0
+477,478,Kyle Jamieson,Off spin,14,13,107.69
+478,479,Kyle Jamieson,Right arm pace,35,25,140.0
+479,480,Kyle Jamieson,Slow left arm orthodox,2,3,66.67
+480,481,Keshav Maharaj,Left arm pace,1,2,50.0
+481,482,Kieron Pollard,Left arm wrist spin,2,3,66.67
+482,483,Kieron Pollard,Left arm pace,56,39,143.59
+483,484,Kieron Pollard,Leg spin,23,37,62.16
+484,485,Kieron Pollard,Off spin,27,25,108.0
+485,486,Kieron Pollard,Right arm pace,249,180,138.33
+486,487,Kieron Pollard,Slow left arm orthodox,32,16,200.0
+487,488,Dinesh Karthik,Left arm wrist spin,12,17,70.59
+488,489,Dinesh Karthik,Left arm pace,280,132,212.12
+489,490,Dinesh Karthik,Leg spin,96,86,111.63
+490,491,Dinesh Karthik,Off spin,89,55,161.82
+491,492,Dinesh Karthik,Right arm pace,471,288,163.54
+492,493,Dinesh Karthik,Slow left arm orthodox,71,51,139.22
+494,495,Krunal Pandya,Left arm wrist spin,12,18,66.67
+495,496,Krunal Pandya,Left arm pace,127,83,153.01
+496,497,Krunal Pandya,Leg spin,94,79,118.99
+497,498,Krunal Pandya,Off spin,65,87,74.71
+498,499,Krunal Pandya,Right arm pace,317,242,130.99
+499,500,Krunal Pandya,Slow left arm orthodox,30,29,103.45
+501,502,Khaleel Ahmed,Left arm pace,1,2,50.0
+502,503,Khaleel Ahmed,Right arm pace,0,2,0.0
+503,504,Karun Nair,Off spin,4,6,66.67
+504,505,Karun Nair,Right arm pace,10,9,111.11
+505,506,Karun Nair,Slow left arm orthodox,2,3,66.67
+506,507,Kamlesh Nagarkoti,Right arm pace,0,2,0.0
+508,509,KL Rahul,Left arm wrist spin,50,36,138.89
+509,510,KL Rahul,Left arm pace,444,315,140.95
+510,511,KL Rahul,Leg spin,232,174,133.33
+511,512,KL Rahul,Off spin,215,185,116.22
+512,513,KL Rahul,Right arm pace,954,694,137.46
+513,514,KL Rahul,Slow left arm orthodox,133,120,110.83
+515,516,KM Asif,Leg spin,0,2,0.0
+516,517,Kedar Jadhav,Left arm pace,14,8,175.0
+517,518,Kedar Jadhav,Leg spin,15,13,115.38
+518,519,Kedar Jadhav,Off spin,2,3,66.67
+519,520,Kedar Jadhav,Right arm pace,19,27,70.37
+520,521,Kedar Jadhav,Slow left arm orthodox,17,11,154.55
+521,522,Kyle Mayers,Left arm wrist spin,27,15,180.0
+522,523,Kyle Mayers,Left arm pace,61,55,110.91
+523,524,Kyle Mayers,Leg spin,40,20,200.0
+524,525,Kyle Mayers,Off spin,53,40,132.5
+525,526,Kyle Mayers,Right arm pace,172,118,145.76
+526,527,Kyle Mayers,Slow left arm orthodox,26,15,173.33
+527,528,Kuldeep Sen,Left arm pace,0,3,0.0
+528,529,K Srikar Bharat,Left arm pace,13,15,86.67
+529,530,K Srikar Bharat,Leg spin,32,24,133.33
+530,531,K Srikar Bharat,Off spin,8,6,133.33
+531,532,K Srikar Bharat,Right arm pace,105,90,116.67
+532,533,K Srikar Bharat,Slow left arm orthodox,41,28,146.43
+533,534,Karan Sharma,Left arm pace,4,3,133.33
+534,535,Karan Sharma,Off spin,5,9,55.56
+535,536,Karan Sharma,Right arm pace,4,9,44.44
+536,537,Karan Sharma,Slow left arm orthodox,3,4,75.0
+537,538,Kane Williamson,Left arm pace,63,69,91.3
+538,539,Kane Williamson,Leg spin,59,60,98.33
+539,540,Kane Williamson,Off spin,45,41,109.76
+540,541,Kane Williamson,Right arm pace,262,237,110.55
+541,542,Kane Williamson,Slow left arm orthodox,84,90,93.33
+542,543,Karn Sharma,Left arm pace,18,5,360.0
+543,544,Karn Sharma,Leg spin,0,2,0.0
+544,545,Karn Sharma,Right arm pace,16,13,123.08
+545,546,Kartik Tyagi,Left arm wrist spin,0,1,0.0
+546,547,Kartik Tyagi,Left arm pace,1,3,33.33
+547,548,Kartik Tyagi,Right arm pace,8,6,133.33
+548,549,Kuldeep Yadav,Left arm pace,21,29,72.41
+549,550,Kuldeep Yadav,Leg spin,15,12,125.0
+550,551,Kuldeep Yadav,Off spin,10,19,52.63
+551,552,Kuldeep Yadav,Right arm pace,80,83,96.39
+552,553,Kumar Kushagra,Leg spin,1,3,33.33
+553,554,Kumar Kushagra,Right arm pace,2,4,50.0
+554,555,Luke Wood,Right arm pace,9,3,300.0
+555,556,Lizaad Williams,Right arm pace,1,2,50.0
+556,557,Lockie Ferguson,Left arm pace,2,2,100.0
+557,558,Lockie Ferguson,Right arm pace,22,14,157.14
+558,559,Liam Livingstone,Left arm wrist spin,23,23,100.0
+559,560,Liam Livingstone,Left arm pace,137,66,207.58
+560,561,Liam Livingstone,Leg spin,91,89,102.25
+561,562,Liam Livingstone,Off spin,38,22,172.73
+562,563,Liam Livingstone,Right arm pace,474,235,201.7
+563,564,Liam Livingstone,Slow left arm orthodox,106,98,108.16
+564,565,Lalit Yadav,Left arm pace,63,53,118.87
+565,566,Lalit Yadav,Leg spin,69,70,98.57
+566,567,Lalit Yadav,Off spin,29,38,76.32
+567,568,Lalit Yadav,Right arm pace,142,127,111.81
+568,569,Lalit Yadav,Slow left arm orthodox,2,2,100.0
+569,570,Liton Das,Right arm pace,4,4,100.0
+570,571,Murugan Ashwin,Left arm pace,3,7,42.86
+571,572,Murugan Ashwin,Leg spin,1,2,50.0
+572,573,Murugan Ashwin,Off spin,3,5,60.0
+573,574,Murugan Ashwin,Right arm pace,19,20,95.0
+574,575,Murugan Ashwin,Slow left arm orthodox,1,4,25.0
+575,576,Marco Jansen,Left arm pace,2,1,200.0
+576,577,Marco Jansen,Leg spin,14,10,140.0
+577,578,Marco Jansen,Off spin,5,7,71.43
+578,579,Marco Jansen,Right arm pace,43,47,91.49
+579,580,Marco Jansen,Slow left arm orthodox,2,1,200.0
+580,581,Mayank Markande,Left arm pace,3,4,75.0
+581,582,Mayank Markande,Leg spin,7,5,140.0
+582,583,Mayank Markande,Right arm pace,11,4,275.0
+583,584,Prasidh Krishna,Left arm pace,0,1,0.0
+584,585,Prasidh Krishna,Leg spin,1,2,50.0
+585,586,Prasidh Krishna,Right arm pace,5,10,50.0
+587,588,Shahrukh Khan,Left arm wrist spin,7,9,77.78
+588,589,Shahrukh Khan,Left arm pace,66,52,126.92
+589,590,Shahrukh Khan,Leg spin,67,65,103.08
+590,591,Shahrukh Khan,Off spin,52,35,148.57
+591,592,Shahrukh Khan,Right arm pace,311,182,170.88
+592,593,Shahrukh Khan,Slow left arm orthodox,50,47,106.38
+593,594,Maheesh Theekshana,Right arm pace,7,6,116.67
+594,595,Maheesh Theekshana,Slow left arm orthodox,0,1,0.0
+595,596,Manan Vohra,Left arm pace,9,9,100.0
+596,597,Manan Vohra,Off spin,2,4,50.0
+597,598,Manan Vohra,Right arm pace,53,46,115.22
+598,599,Manan Vohra,Slow left arm orthodox,7,3,233.33
+599,600,Mayank Agarwal,Left arm wrist spin,5,7,71.43
+600,601,Mayank Agarwal,Left arm pace,196,156,125.64
+601,602,Mayank Agarwal,Leg spin,89,80,111.25
+602,603,Mayank Agarwal,Off spin,74,53,139.62
+603,604,Mayank Agarwal,Right arm pace,499,358,139.39
+604,605,Mayank Agarwal,Slow left arm orthodox,108,90,120.0
+606,607,Mitchell Starc,Left arm pace,6,6,100.0
+607,608,Mitchell Starc,Right arm pace,3,5,60.0
+608,609,Mark Wood,Left arm pace,1,1,100.0
+609,610,Mark Wood,Right arm pace,10,4,250.0
+610,611,Moises Henriques,Leg spin,6,9,66.67
+611,612,Moises Henriques,Off spin,1,2,50.0
+612,613,Moises Henriques,Right arm pace,15,12,125.0
+613,614,Moises Henriques,Slow left arm orthodox,9,9,100.0
+614,615,Dasun Shanaka,Left arm pace,8,6,133.33
+615,616,Dasun Shanaka,Off spin,15,10,150.0
+616,617,Dasun Shanaka,Right arm pace,1,4,25.0
+617,618,Dasun Shanaka,Slow left arm orthodox,2,6,33.33
+618,619,Michael Bracewell,Left arm wrist spin,6,4,150.0
+619,620,Michael Bracewell,Left arm pace,2,2,100.0
+620,621,Michael Bracewell,Leg spin,21,17,123.53
+621,622,Michael Bracewell,Off spin,5,7,71.43
+622,623,Michael Bracewell,Right arm pace,24,17,141.18
+623,624,Mitchell Santner,Left arm pace,20,16,125.0
+624,625,Mitchell Santner,Leg spin,2,5,40.0
+625,626,Mitchell Santner,Right arm pace,16,27,59.26
+626,627,MJ Suthar,Right arm pace,1,2,50.0
+627,628,Mahipal Lomror,Left arm wrist spin,31,14,221.43
+628,629,Mahipal Lomror,Left arm pace,53,42,126.19
+629,630,Mahipal Lomror,Leg spin,67,41,163.41
+630,631,Mahipal Lomror,Off spin,95,56,169.64
+631,632,Mahipal Lomror,Right arm pace,173,118,146.61
+632,633,Mahipal Lomror,Slow left arm orthodox,21,25,84.0
+633,634,Manish Pandey,Left arm pace,49,45,108.89
+634,635,Manish Pandey,Leg spin,76,76,100.0
+635,636,Manish Pandey,Off spin,97,74,131.08
+636,637,Manish Pandey,Right arm pace,260,219,118.72
+637,638,Manish Pandey,Slow left arm orthodox,100,81,123.46
+638,639,Moeen Ali,Left arm wrist spin,24,13,184.62
+639,640,Moeen Ali,Left arm pace,132,91,145.05
+640,641,Moeen Ali,Leg spin,206,147,140.14
+641,642,Moeen Ali,Off spin,95,78,121.79
+642,643,Moeen Ali,Right arm pace,373,279,133.69
+643,644,Moeen Ali,Slow left arm orthodox,23,19,121.05
+644,645,Mohit Sharma,Left arm wrist spin,0,5,0.0
+645,646,Mohit Sharma,Left arm pace,1,2,50.0
+646,647,Mohit Sharma,Right arm pace,0,2,0.0
+647,648,Mohit Sharma,Slow left arm orthodox,1,7,14.29
+648,649,Marcus Stoinis,Left arm wrist spin,21,28,75.0
+649,650,Marcus Stoinis,Left arm pace,165,118,139.83
+650,651,Marcus Stoinis,Leg spin,184,131,140.46
+651,652,Marcus Stoinis,Off spin,110,58,189.66
+652,653,Marcus Stoinis,Right arm pace,469,310,151.29
+653,654,Marcus Stoinis,Slow left arm orthodox,79,65,121.54
+655,656,Mitchell Marsh,Left arm pace,115,68,169.12
+656,657,Mitchell Marsh,Leg spin,55,55,100.0
+657,658,Mitchell Marsh,Off spin,23,24,95.83
+658,659,Mitchell Marsh,Right arm pace,197,132,149.24
+659,660,Mitchell Marsh,Slow left arm orthodox,50,45,111.11
+660,661,Mahendra Singh Dhoni,Left arm pace,164,97,169.07
+661,662,Mahendra Singh Dhoni,Leg spin,77,77,100.0
+662,663,Mahendra Singh Dhoni,Off spin,28,33,84.85
+663,664,Mahendra Singh Dhoni,Right arm pace,324,196,165.31
+664,665,Mahendra Singh Dhoni,Slow left arm orthodox,18,22,81.82
+665,666,Matthew Wade,Left arm pace,38,30,126.67
+666,667,Matthew Wade,Leg spin,15,17,88.24
+667,668,Matthew Wade,Off spin,14,25,56.0
+668,669,Matthew Wade,Right arm pace,82,63,130.16
+669,670,Matthew Wade,Slow left arm orthodox,12,13,92.31
+670,671,Matt Short,Left arm pace,36,29,124.14
+671,672,Matt Short,Leg spin,4,10,40.0
+672,673,Matt Short,Off spin,7,5,140.0
+673,674,Matt Short,Right arm pace,66,42,157.14
+674,675,Matt Short,Slow left arm orthodox,4,6,66.67
+675,676,Mandeep Singh,Left arm pace,4,7,57.14
+676,677,Mandeep Singh,Leg spin,0,2,0.0
+677,678,Mandeep Singh,Right arm pace,32,31,103.23
+678,679,Mandeep Singh,Slow left arm orthodox,11,13,84.62
+679,680,Mayank Dagar,Right arm pace,0,1,0.0
+680,681,Mohammad Nabi,Left arm pace,6,8,75.0
+681,682,Mohammad Nabi,Leg spin,18,11,163.64
+682,683,Mohammad Nabi,Off spin,2,2,100.0
+683,684,Mohammad Nabi,Right arm pace,39,26,150.0
+684,685,Mohammad Nabi,Slow left arm orthodox,4,4,100.0
+685,686,Mohammed Shami,Left arm pace,7,7,100.0
+686,687,Mohammed Shami,Right arm pace,11,17,64.71
+687,688,Mohammed Siraj,Left arm pace,8,13,61.54
+688,689,Mohammed Siraj,Leg spin,14,7,200.0
+689,690,Mohammed Siraj,Right arm pace,41,47,87.23
+690,691,Mohammed Siraj,Slow left arm orthodox,0,2,0.0
+691,692,Mohit Rathee,Right arm pace,1,2,50.0
+692,693,Mohsin Khan,Left arm pace,16,9,177.78
+693,694,Mohsin Khan,Leg spin,7,3,233.33
+694,695,Mohsin Khan,Right arm pace,1,9,11.11
+695,696,Mohsin Khan,Slow left arm orthodox,1,3,33.33
+696,697,Mujeeb Ur Rahman,Left arm pace,1,1,100.0
+697,698,Mukesh Choudhary,Left arm pace,0,1,0.0
+698,699,Mukesh Choudhary,Leg spin,2,2,100.0
+699,700,Mukesh Choudhary,Right arm pace,4,3,133.33
+700,701,Mukesh Kumar,Left arm pace,3,5,60.0
+701,702,Mukesh Kumar,Right arm pace,7,13,53.85
+702,703,Mustafizur Rahman,Left arm pace,7,6,116.67
+703,704,Mustafizur Rahman,Leg spin,1,1,100.0
+704,705,Mustafizur Rahman,Off spin,0,3,0.0
+705,706,Mustafizur Rahman,Right arm pace,4,10,40.0
+706,707,Narayan Jagadeesan,Left arm pace,38,36,105.56
+707,708,Narayan Jagadeesan,Leg spin,17,18,94.44
+708,709,Narayan Jagadeesan,Off spin,6,4,150.0
+709,710,Narayan Jagadeesan,Right arm pace,44,48,91.67
+710,711,Narayan Jagadeesan,Slow left arm orthodox,24,13,184.62
+712,713,Nicholas Pooran,Left arm wrist spin,27,30,90.0
+713,714,Nicholas Pooran,Left arm pace,260,128,203.12
+714,715,Nicholas Pooran,Leg spin,247,147,168.03
+715,716,Nicholas Pooran,Off spin,76,75,101.33
+716,717,Nicholas Pooran,Right arm pace,511,337,151.63
+717,718,Nicholas Pooran,Slow left arm orthodox,87,45,193.33
+719,720,Nitish Rana,Left arm wrist spin,19,13,146.15
+720,721,Nitish Rana,Left arm pace,250,190,131.58
+721,722,Nitish Rana,Leg spin,164,148,110.81
+722,723,Nitish Rana,Off spin,229,148,154.73
+723,724,Nitish Rana,Right arm pace,448,335,133.73
+724,725,Nitish Rana,Slow left arm orthodox,82,56,146.43
+726,727,Nehal Wadhera,Left arm wrist spin,25,9,277.78
+727,728,Nehal Wadhera,Left arm pace,13,11,118.18
+728,729,Nehal Wadhera,Leg spin,70,51,137.25
+729,730,Nehal Wadhera,Off spin,47,40,117.5
+730,731,Nehal Wadhera,Right arm pace,165,121,136.36
+731,732,Nehal Wadhera,Slow left arm orthodox,30,19,157.89
+732,733,Navdeep Saini,Leg spin,0,1,0.0
+733,734,Navdeep Saini,Slow left arm orthodox,2,3,66.67
+734,735,Nathan Coulter-Nile,Left arm pace,1,2,50.0
+735,736,Nathan Coulter-Nile,Leg spin,1,1,100.0
+736,737,Nathan Coulter-Nile,Right arm pace,3,4,75.0
+737,738,Nathan Ellis,Left arm wrist spin,0,2,0.0
+738,739,Nathan Ellis,Leg spin,1,3,33.33
+739,740,Nathan Ellis,Right arm pace,18,20,90.0
+740,741,Naman Dhir,Left arm pace,22,15,146.67
+741,742,Naman Dhir,Leg spin,7,7,100.0
+742,743,Naman Dhir,Right arm pace,92,48,191.67
+743,744,Naman Dhir,Slow left arm orthodox,19,9,211.11
+744,745,Navdeep Saini,Left arm pace,2,2,100.0
+745,746,Naveen-ul-Haq,Leg spin,1,1,100.0
+746,747,Naveen-ul-Haq,Right arm pace,16,22,72.73
+747,748,Naveen-ul-Haq,Slow left arm orthodox,1,2,50.0
+748,749,Nitish Kumar Reddy,Left arm wrist spin,10,5,200.0
+749,750,Nitish Kumar Reddy,Left arm pace,31,31,100.0
+750,751,Nitish Kumar Reddy,Leg spin,49,30,163.33
+751,752,Nitish Kumar Reddy,Off spin,22,9,244.44
+752,753,Nitish Kumar Reddy,Right arm pace,107,87,122.99
+753,754,Nitish Kumar Reddy,Slow left arm orthodox,76,43,176.74
+755,756,Noor Ahmad,Left arm wrist spin,0,2,0.0
+756,757,Noor Ahmad,Leg spin,1,1,100.0
+757,758,Noor Ahmad,Right arm pace,11,9,122.22
+758,759,Noor Ahmad,Slow left arm orthodox,1,6,16.67
+759,760,Obed McCoy,Left arm pace,1,3,33.33
+760,761,Obed McCoy,Slow left arm orthodox,7,2,350.0
+761,762,Odean Smith,Left arm pace,3,4,75.0
+762,763,Odean Smith,Leg spin,1,1,100.0
+763,764,Odean Smith,Off spin,1,5,20.0
+764,765,Odean Smith,Right arm pace,46,35,131.43
+765,766,Praveen Dubey,Left arm pace,7,5,140.0
+766,767,Praveen Dubey,Leg spin,4,6,66.67
+767,768,Praveen Dubey,Off spin,1,4,25.0
+768,769,Praveen Dubey,Right arm pace,2,3,66.67
+769,770,Praveen Dubey,Slow left arm orthodox,2,2,100.0
+770,771,Prabhsimran Singh,Left arm wrist spin,34,23,147.83
+771,772,Prabhsimran Singh,Left arm pace,122,98,124.49
+772,773,Prabhsimran Singh,Leg spin,84,51,164.71
+773,774,Prabhsimran Singh,Off spin,55,28,196.43
+774,775,Prabhsimran Singh,Right arm pace,372,230,161.74
+775,776,Prabhsimran Singh,Slow left arm orthodox,58,57,101.75
+776,777,Bhanuka Rajapaksa,Left arm pace,18,13,138.46
+777,778,Bhanuka Rajapaksa,Leg spin,47,42,111.9
+778,779,Bhanuka Rajapaksa,Off spin,34,23,147.83
+779,780,Bhanuka Rajapaksa,Right arm pace,163,102,159.8
+780,781,Bhanuka Rajapaksa,Slow left arm orthodox,15,11,136.36
+781,782,Phil Salt,Left arm wrist spin,7,2,350.0
+782,783,Phil Salt,Left arm pace,158,103,153.4
+783,784,Phil Salt,Leg spin,69,53,130.19
+784,785,Phil Salt,Off spin,10,6,166.67
+785,786,Phil Salt,Right arm pace,321,161,199.38
+786,787,Phil Salt,Slow left arm orthodox,75,43,174.42
+788,789,Pat Cummins,Left arm wrist spin,0,1,0.0
+789,790,Pat Cummins,Left arm pace,107,40,267.5
+790,791,Pat Cummins,Leg spin,38,23,165.22
+791,792,Pat Cummins,Off spin,8,9,88.89
+792,793,Pat Cummins,Right arm pace,122,91,134.07
+793,794,Pat Cummins,Slow left arm orthodox,17,11,154.55
+794,795,Pradeep Sangwan,Left arm pace,1,2,50.0
+795,796,Pradeep Sangwan,Right arm pace,1,3,33.33
+796,797,Priyam Garg,Left arm pace,29,23,126.09
+797,798,Priyam Garg,Leg spin,38,31,122.58
+798,799,Priyam Garg,Off spin,6,10,60.0
+799,800,Priyam Garg,Right arm pace,32,40,80.0
+800,801,Priyam Garg,Slow left arm orthodox,35,26,134.62
+801,802,Prerak Mankad,Left arm pace,33,23,143.48
+802,803,Prerak Mankad,Leg spin,26,13,200.0
+803,804,Prerak Mankad,Off spin,7,7,100.0
+804,805,Prerak Mankad,Right arm pace,25,26,96.15
+805,806,Prerak Mankad,Slow left arm orthodox,6,4,150.0
+806,807,Piyush Chawla,Left arm pace,1,2,50.0
+807,808,Piyush Chawla,Leg spin,1,3,33.33
+808,809,Piyush Chawla,Off spin,2,3,66.67
+809,810,Piyush Chawla,Right arm pace,36,31,116.13
+810,811,Prithvi Shaw,Left arm pace,233,155,150.32
+811,812,Prithvi Shaw,Leg spin,113,69,163.77
+812,813,Prithvi Shaw,Off spin,153,94,162.77
+813,814,Prithvi Shaw,Right arm pace,488,322,151.55
+814,815,Prithvi Shaw,Slow left arm orthodox,79,54,146.3
+815,816,Dushmantha Chameera,Left arm pace,13,9,144.44
+816,817,Dushmantha Chameera,Leg spin,5,7,71.43
+817,818,Dushmantha Chameera,Right arm pace,25,12,208.33
+818,819,Wanindu Hasaranga,Left arm pace,7,8,87.5
+819,820,Wanindu Hasaranga,Leg spin,12,10,120.0
+820,821,Wanindu Hasaranga,Off spin,8,9,88.89
+821,822,Wanindu Hasaranga,Right arm pace,39,44,88.64
+822,823,Wanindu Hasaranga,Slow left arm orthodox,6,3,200.0
+823,824,Quinton de Kock,Left arm wrist spin,27,16,168.75
+824,825,Quinton de Kock,Left arm pace,208,171,121.64
+825,826,Quinton de Kock,Leg spin,140,101,138.61
+826,827,Quinton de Kock,Off spin,105,113,92.92
+827,828,Quinton de Kock,Right arm pace,639,435,146.9
+828,829,Quinton de Kock,Slow left arm orthodox,79,51,154.9
+829,830,Ravichandran Ashwin,Left arm wrist spin,26,20,130.0
+830,831,Ravichandran Ashwin,Left arm pace,63,46,136.96
+831,832,Ravichandran Ashwin,Leg spin,50,44,113.64
+832,833,Ravichandran Ashwin,Off spin,37,24,154.17
+833,834,Ravichandran Ashwin,Right arm pace,175,130,134.62
+834,835,Ravichandran Ashwin,Slow left arm orthodox,37,38,97.37
+835,836,Rishi Dhawan,Left arm wrist spin,2,5,40.0
+836,837,Rishi Dhawan,Left arm pace,1,1,100.0
+837,838,Rishi Dhawan,Leg spin,8,6,133.33
+838,839,Rishi Dhawan,Off spin,11,6,183.33
+839,840,Rishi Dhawan,Right arm pace,33,22,150.0
+840,841,Rishi Dhawan,Slow left arm orthodox,2,12,16.67
+841,842,Riyan Parag,Left arm wrist spin,63,40,157.5
+842,843,Riyan Parag,Left arm pace,141,101,139.6
+843,844,Riyan Parag,Leg spin,98,88,111.36
+844,845,Riyan Parag,Off spin,29,29,100.0
+845,846,Riyan Parag,Right arm pace,485,312,155.45
+846,847,Riyan Parag,Slow left arm orthodox,111,96,115.62
+847,848,Rovman Powell,Left arm wrist spin,2,2,100.0
+848,849,Rovman Powell,Left arm pace,67,38,176.32
+849,850,Rovman Powell,Leg spin,47,52,90.38
+850,851,Rovman Powell,Off spin,65,40,162.5
+851,852,Rovman Powell,Right arm pace,175,105,166.67
+852,853,Rovman Powell,Slow left arm orthodox,4,8,50.0
+853,854,Rachin Ravindra,Left arm pace,50,35,142.86
+854,855,Rachin Ravindra,Leg spin,25,10,250.0
+855,856,Rachin Ravindra,Off spin,19,20,95.0
+856,857,Rachin Ravindra,Right arm pace,115,62,185.48
+857,858,Rachin Ravindra,Slow left arm orthodox,13,11,118.18
+858,859,R Sai Kishore,Right arm pace,13,6,216.67
+859,860,Sanjay Yadav,Right arm pace,0,2,0.0
+860,861,Romario Shepherd,Left arm pace,8,7,114.29
+861,862,Romario Shepherd,Leg spin,18,12,150.0
+862,863,Romario Shepherd,Off spin,6,8,75.0
+863,864,Romario Shepherd,Right arm pace,83,34,244.12
+864,865,Romario Shepherd,Slow left arm orthodox,0,2,0.0
+865,866,Rahul Tewatia,Left arm wrist spin,6,11,54.55
+866,867,Rahul Tewatia,Left arm pace,110,61,180.33
+867,868,Rahul Tewatia,Leg spin,69,49,140.82
+868,869,Rahul Tewatia,Off spin,47,43,109.3
+869,870,Rahul Tewatia,Right arm pace,386,282,136.88
+870,871,Rahul Tewatia,Slow left arm orthodox,29,34,85.29
+871,872,Raj Bawa,Leg spin,1,4,25.0
+872,873,Raj Bawa,Off spin,8,6,133.33
+873,874,Raj Bawa,Right arm pace,2,4,50.0
+874,875,Ravindra Jadeja,Left arm wrist spin,13,9,144.44
+875,876,Ravindra Jadeja,Left arm pace,167,110,151.82
+876,877,Ravindra Jadeja,Leg spin,99,99,100.0
+877,878,Ravindra Jadeja,Off spin,23,27,85.19
+878,879,Ravindra Jadeja,Right arm pace,475,304,156.25
+879,880,Ravindra Jadeja,Slow left arm orthodox,23,27,85.19
+880,881,Rahul Tripathi,Left arm wrist spin,4,5,80.0
+881,882,Rahul Tripathi,Left arm pace,191,139,137.41
+882,883,Rahul Tripathi,Leg spin,233,158,147.47
+883,884,Rahul Tripathi,Off spin,153,103,148.54
+884,885,Rahul Tripathi,Right arm pace,540,363,148.76
+885,886,Rahul Tripathi,Slow left arm orthodox,127,104,122.12
+886,887,Rahul Chahar,Left arm pace,26,18,144.44
+887,888,Rahul Chahar,Leg spin,2,7,28.57
+888,889,Rahul Chahar,Off spin,4,4,100.0
+889,890,Rahul Chahar,Right arm pace,79,73,108.22
+890,891,Rahul Chahar,Slow left arm orthodox,1,5,20.0
+891,892,Ruturaj Gaikwad,Left arm wrist spin,45,27,166.67
+892,893,Ruturaj Gaikwad,Left arm pace,462,335,137.91
+893,894,Ruturaj Gaikwad,Leg spin,313,238,131.51
+894,895,Ruturaj Gaikwad,Off spin,146,96,152.08
+895,896,Ruturaj Gaikwad,Right arm pace,972,725,134.07
+896,897,Ruturaj Gaikwad,Slow left arm orthodox,238,154,154.55
+897,898,Rohit Sharma,Left arm wrist spin,12,11,109.09
+898,899,Rohit Sharma,Left arm pace,245,197,124.37
+899,900,Rohit Sharma,Leg spin,154,121,127.27
+900,901,Rohit Sharma,Off spin,136,95,143.16
+901,902,Rohit Sharma,Right arm pace,698,511,136.59
+902,903,Rohit Sharma,Slow left arm orthodox,153,122,125.41
+903,904,Richard Gleeson,Left arm pace,2,2,100.0
+904,905,Reece Topley,Leg spin,1,2,50.0
+905,906,Reece Topley,Right arm pace,2,4,50.0
+906,907,Ricky Bhui,Left arm pace,0,2,0.0
+907,908,Ricky Bhui,Leg spin,2,3,66.67
+908,909,Ricky Bhui,Right arm pace,1,2,50.0
+909,910,Ricky Bhui,Slow left arm orthodox,0,2,0.0
+910,911,Rinku Singh,Left arm wrist spin,11,13,84.62
+911,912,Rinku Singh,Left arm pace,153,81,188.89
+912,913,Rinku Singh,Leg spin,94,75,125.33
+913,914,Rinku Singh,Off spin,67,74,90.54
+914,915,Rinku Singh,Right arm pace,445,269,165.43
+915,916,Rinku Singh,Slow left arm orthodox,46,35,131.43
+916,917,Rajat Patidar,Left arm wrist spin,13,8,162.5
+917,918,Rajat Patidar,Left arm pace,72,64,112.5
+918,919,Rajat Patidar,Leg spin,225,103,218.45
+919,920,Rajat Patidar,Off spin,79,53,149.06
+920,921,Rajat Patidar,Right arm pace,294,195,150.77
+921,922,Rajat Patidar,Slow left arm orthodox,107,76,140.79
+923,924,Riley Meredith,Right arm pace,0,3,0.0
+924,925,Rishabh Pant,Left arm wrist spin,31,23,134.78
+925,926,Rishabh Pant,Left arm pace,109,81,134.57
+926,927,Rishabh Pant,Leg spin,289,194,148.97
+927,928,Rishabh Pant,Off spin,123,128,96.09
+928,929,Rishabh Pant,Right arm pace,597,377,158.36
+929,930,Rishabh Pant,Slow left arm orthodox,61,38,160.53
+930,931,Rilee Rossouw,Left arm wrist spin,5,4,125.0
+931,932,Rilee Rossouw,Left arm pace,57,33,172.73
+932,933,Rilee Rossouw,Leg spin,64,42,152.38
+933,934,Rilee Rossouw,Off spin,30,44,68.18
+934,935,Rilee Rossouw,Right arm pace,210,103,203.88
+935,936,Rilee Rossouw,Slow left arm orthodox,54,31,174.19
+936,937,Ripal Patel,Left arm wrist spin,1,2,50.0
+937,938,Ripal Patel,Left arm pace,17,10,170.0
+938,939,Ripal Patel,Leg spin,7,2,350.0
+939,940,Ripal Patel,Off spin,8,7,114.29
+940,941,Ripal Patel,Right arm pace,32,38,84.21
+941,942,Ripal Patel,Slow left arm orthodox,15,14,107.14
+942,943,Robin Uthappa,Left arm pace,17,20,85.0
+943,944,Robin Uthappa,Leg spin,23,14,164.29
+944,945,Robin Uthappa,Off spin,61,40,152.5
+945,946,Robin Uthappa,Right arm pace,223,162,137.65
+946,947,Robin Uthappa,Slow left arm orthodox,21,19,110.53
+947,948,Rahmanullah Gurbaz,Left arm wrist spin,9,5,180.0
+948,949,Rahmanullah Gurbaz,Left arm pace,70,58,120.69
+949,950,Rahmanullah Gurbaz,Leg spin,45,27,166.67
+950,951,Rahmanullah Gurbaz,Off spin,16,7,228.57
+951,952,Rahmanullah Gurbaz,Right arm pace,129,103,125.24
+952,953,Rahmanullah Gurbaz,Slow left arm orthodox,20,17,117.65
+953,954,Ramandeep Singh,Left arm pace,30,13,230.77
+954,955,Ramandeep Singh,Leg spin,16,15,106.67
+955,956,Ramandeep Singh,Off spin,11,10,110.0
+956,957,Ramandeep Singh,Right arm pace,97,50,194.0
+957,958,Ramandeep Singh,Slow left arm orthodox,16,14,114.29
+959,960,Rashid Khan,Left arm wrist spin,10,7,142.86
+960,961,Rashid Khan,Left arm pace,37,26,142.31
+961,962,Rashid Khan,Leg spin,3,5,60.0
+962,963,Rashid Khan,Off spin,5,5,100.0
+963,964,Rashid Khan,Right arm pace,296,176,168.18
+964,965,Rashid Khan,Slow left arm orthodox,49,24,204.17
+965,966,Rasikh Salam,Left arm pace,16,10,160.0
+966,967,Rasikh Salam,Leg spin,2,6,33.33
+967,968,Rasikh Salam,Off spin,3,5,60.0
+968,969,Rasikh Salam,Right arm pace,14,15,93.33
+969,970,Ravi Bishnoi,Left arm pace,5,5,100.0
+970,971,Ravi Bishnoi,Leg spin,2,4,50.0
+971,972,Ravi Bishnoi,Right arm pace,16,26,61.54
+972,973,Ravi Bishnoi,Slow left arm orthodox,2,3,66.67
+973,974,Shikhar Dhawan,Left arm pace,289,225,128.44
+974,975,Shikhar Dhawan,Leg spin,217,175,124.0
+975,976,Shikhar Dhawan,Off spin,182,155,117.42
+976,977,Shikhar Dhawan,Right arm pace,754,573,131.59
+977,978,Shikhar Dhawan,Slow left arm orthodox,130,107,121.5
+979,980,Shivam Dube,Left arm wrist spin,18,14,128.57
+980,981,Shivam Dube,Left arm pace,168,93,180.65
+981,982,Shivam Dube,Leg spin,232,140,165.71
+982,983,Shivam Dube,Off spin,177,125,141.6
+983,984,Shivam Dube,Right arm pace,664,465,142.8
+984,985,Shivam Dube,Slow left arm orthodox,72,46,156.52
+985,986,Shreyas Gopal,Left arm wrist spin,0,2,0.0
+986,987,Shreyas Gopal,Left arm pace,0,2,0.0
+987,988,Shreyas Gopal,Right arm pace,16,8,200.0
+988,989,Siddarth Kaul,Left arm pace,1,1,100.0
+989,990,Siddarth Kaul,Right arm pace,7,7,100.0
+990,991,Shahbaz Nadeem,Right arm pace,0,1,0.0
+991,992,Sean Abbott,Left arm pace,6,2,300.0
+992,993,Sean Abbott,Right arm pace,1,3,33.33
+993,994,Suryakumar Yadav,Left arm wrist spin,24,24,100.0
+994,995,Suryakumar Yadav,Left arm pace,263,141,186.52
+995,996,Suryakumar Yadav,Leg spin,293,204,143.63
+996,997,Suryakumar Yadav,Off spin,151,105,143.81
+997,998,Suryakumar Yadav,Right arm pace,736,403,182.63
+998,999,Suryakumar Yadav,Slow left arm orthodox,103,94,109.57
+999,1000,Shubham Dubey,Left arm wrist spin,1,2,50.0
+1000,1001,Shubham Dubey,Left arm pace,11,5,220.0
+1001,1002,Shubham Dubey,Leg spin,2,3,66.67
+1002,1003,Shubham Dubey,Right arm pace,19,9,211.11
+1003,1004,Shai Hope,Left arm pace,43,34,126.47
+1004,1005,Shai Hope,Leg spin,45,28,160.71
+1005,1006,Shai Hope,Off spin,17,7,242.86
+1006,1007,Shai Hope,Right arm pace,66,40,165.0
+1007,1008,Shai Hope,Slow left arm orthodox,12,13,92.31
+1008,1009,Sherfane Rutherford,Left arm pace,0,1,0.0
+1009,1010,Sherfane Rutherford,Leg spin,17,13,130.77
+1010,1011,Sherfane Rutherford,Off spin,8,16,50.0
+1011,1012,Sherfane Rutherford,Right arm pace,8,20,40.0
+1012,1013,Spencer Johnson,Left arm pace,4,3,133.33
+1013,1014,Spencer Johnson,Right arm pace,2,4,50.0
+1014,1015,Suresh Raina,Left arm pace,13,17,76.47
+1015,1016,Suresh Raina,Leg spin,62,34,182.35
+1016,1017,Suresh Raina,Off spin,30,19,157.89
+1017,1018,Suresh Raina,Right arm pace,55,58,94.83
+1018,1019,Sam Curran,Left arm wrist spin,20,25,80.0
+1019,1020,Sam Curran,Left arm pace,74,48,154.17
+1020,1021,Sam Curran,Leg spin,111,86,129.07
+1021,1022,Sam Curran,Off spin,55,48,114.58
+1022,1023,Sam Curran,Right arm pace,288,203,141.87
+1023,1024,Sam Curran,Slow left arm orthodox,54,43,125.58
+1024,1025,Sarfaraz Khan,Left arm pace,27,21,128.57
+1025,1026,Sarfaraz Khan,Leg spin,34,32,106.25
+1026,1027,Sarfaraz Khan,Off spin,0,2,0.0
+1027,1028,Sarfaraz Khan,Right arm pace,61,65,93.85
+1028,1029,Sarfaraz Khan,Slow left arm orthodox,22,13,169.23
+1029,1030,Shardul Thakur,Left arm pace,56,31,180.65
+1030,1031,Shardul Thakur,Leg spin,35,31,112.9
+1031,1032,Shardul Thakur,Off spin,37,31,119.35
+1032,1033,Shardul Thakur,Right arm pace,131,87,150.57
+1033,1034,Shimron Hetmyer,Left arm wrist spin,17,14,121.43
+1034,1035,Shimron Hetmyer,Left arm pace,198,113,175.22
+1035,1036,Shimron Hetmyer,Leg spin,80,75,106.67
+1036,1037,Shimron Hetmyer,Off spin,82,76,107.89
+1037,1038,Shimron Hetmyer,Right arm pace,588,332,177.11
+1038,1039,Shimron Hetmyer,Slow left arm orthodox,3,6,50.0
+1039,1040,Sheldon Jackson,Left arm pace,3,4,75.0
+1040,1041,Sheldon Jackson,Leg spin,3,6,50.0
+1041,1042,Sheldon Jackson,Right arm pace,16,14,114.29
+1042,1043,Sheldon Jackson,Slow left arm orthodox,1,2,50.0
+1043,1044,Sunil Narine,Left arm wrist spin,4,3,133.33
+1044,1045,Sunil Narine,Left arm pace,119,90,132.22
+1045,1046,Sunil Narine,Leg spin,89,50,178.0
+1046,1047,Sunil Narine,Off spin,43,26,165.38
+1047,1048,Sunil Narine,Right arm pace,360,199,180.9
+1048,1049,Sunil Narine,Slow left arm orthodox,27,16,168.75
+1049,1050,Steven Smith,Left arm pace,22,13,169.23
+1050,1051,Steven Smith,Leg spin,32,26,123.08
+1051,1052,Steven Smith,Off spin,29,27,107.41
+1052,1053,Steven Smith,Right arm pace,42,49,85.71
+1053,1054,Steven Smith,Slow left arm orthodox,27,21,128.57
+1054,1055,Shreyas Iyer,Left arm wrist spin,54,36,150.0
+1055,1056,Shreyas Iyer,Left arm pace,168,128,131.25
+1056,1057,Shreyas Iyer,Leg spin,103,96,107.29
+1057,1058,Shreyas Iyer,Off spin,93,57,163.16
+1058,1059,Shreyas Iyer,Right arm pace,396,301,131.56
+1059,1060,Shreyas Iyer,Slow left arm orthodox,102,81,125.93
+1061,1062,Suyash Prabhudessai,Left arm pace,5,6,83.33
+1062,1063,Suyash Prabhudessai,Leg spin,26,27,96.3
+1063,1064,Suyash Prabhudessai,Off spin,9,10,90.0
+1064,1065,Suyash Prabhudessai,Right arm pace,52,40,130.0
+1065,1066,Suyash Prabhudessai,Slow left arm orthodox,34,23,147.83
+1066,1067,Saurabh Tiwary,Left arm pace,10,9,111.11
+1067,1068,Saurabh Tiwary,Leg spin,10,7,142.86
+1068,1069,Saurabh Tiwary,Off spin,17,17,100.0
+1069,1070,Saurabh Tiwary,Right arm pace,51,46,110.87
+1070,1071,Saurabh Tiwary,Slow left arm orthodox,27,18,150.0
+1071,1072,Sanju Samson,Left arm wrist spin,31,21,147.62
+1072,1073,Sanju Samson,Left arm pace,321,201,159.7
+1073,1074,Sanju Samson,Leg spin,379,245,154.69
+1074,1075,Sanju Samson,Off spin,120,90,133.33
+1075,1076,Sanju Samson,Right arm pace,778,548,141.97
+1076,1077,Sanju Samson,Slow left arm orthodox,206,145,142.07
+1077,1078,Sam Billings,Left arm wrist spin,1,1,100.0
+1078,1079,Sam Billings,Left arm pace,16,19,84.21
+1079,1080,Sam Billings,Leg spin,40,32,125.0
+1080,1081,Sam Billings,Off spin,9,9,100.0
+1081,1082,Sam Billings,Right arm pace,69,51,135.29
+1082,1083,Sam Billings,Slow left arm orthodox,34,26,130.77
+1083,1084,Shams Mulani,Right arm pace,1,1,100.0
+1084,1085,Sachin Baby,Leg spin,2,6,33.33
+1085,1086,Sachin Baby,Off spin,1,1,100.0
+1086,1087,Sachin Baby,Right arm pace,4,10,40.0
+1087,1088,Sameer Rizvi,Left arm pace,9,4,225.0
+1088,1089,Sameer Rizvi,Leg spin,19,10,190.0
+1089,1090,Sameer Rizvi,Right arm pace,16,18,88.89
+1090,1091,Sameer Rizvi,Slow left arm orthodox,7,11,63.64
+1091,1092,Sandeep Sharma,Left arm pace,6,4,150.0
+1092,1093,Sandeep Sharma,Off spin,0,1,0.0
+1093,1094,Sandeep Sharma,Right arm pace,4,8,50.0
+1095,1096,Sanvir Singh,Leg spin,1,1,100.0
+1096,1097,Sanvir Singh,Off spin,0,1,0.0
+1097,1098,Sanvir Singh,Right arm pace,18,15,120.0
+1098,1099,Sanvir Singh,Slow left arm orthodox,2,3,66.67
+1099,1100,Saurav Chauhan,Left arm pace,1,1,100.0
+1100,1101,Saurav Chauhan,Leg spin,0,1,0.0
+1101,1102,Saurav Chauhan,Off spin,7,3,233.33
+1102,1103,Saurav Chauhan,Right arm pace,10,10,100.0
+1103,1104,Shahbaz Ahmed,Left arm wrist spin,16,8,200.0
+1104,1105,Shahbaz Ahmed,Left arm pace,107,77,138.96
+1105,1106,Shahbaz Ahmed,Leg spin,49,67,73.13
+1106,1107,Shahbaz Ahmed,Off spin,56,53,105.66
+1107,1108,Shahbaz Ahmed,Right arm pace,248,182,136.26
+1108,1109,Shahbaz Ahmed,Slow left arm orthodox,59,54,109.26
+1109,1110,Shakib Al Hasan,Left arm pace,4,5,80.0
+1110,1111,Shakib Al Hasan,Leg spin,4,6,66.67
+1111,1112,Shakib Al Hasan,Off spin,19,15,126.67
+1112,1113,Shakib Al Hasan,Right arm pace,20,19,105.26
+1113,1114,Shakib Al Hasan,Slow left arm orthodox,0,3,0.0
+1114,1115,Shashank Singh,Left arm wrist spin,13,12,108.33
+1115,1116,Shashank Singh,Left arm pace,35,30,116.67
+1116,1117,Shashank Singh,Leg spin,78,42,185.71
+1117,1118,Shashank Singh,Off spin,16,16,100.0
+1118,1119,Shashank Singh,Right arm pace,249,131,190.08
+1119,1120,Shashank Singh,Slow left arm orthodox,32,31,103.23
+1120,1121,Shivam Mavi,Left arm pace,5,3,166.67
+1121,1122,Shivam Mavi,Leg spin,1,5,20.0
+1122,1123,Shivam Mavi,Right arm pace,22,19,115.79
+1123,1124,Shivam Singh,Left arm pace,1,1,100.0
+1124,1125,Shivam Singh,Right arm pace,1,2,50.0
+1125,1126,Shubman Gill,Left arm wrist spin,20,11,181.82
+1126,1127,Shubman Gill,Left arm pace,384,287,133.8
+1127,1128,Shubman Gill,Leg spin,329,224,146.88
+1128,1129,Shubman Gill,Off spin,188,124,151.61
+1129,1130,Shubman Gill,Right arm pace,1010,719,140.47
+1130,1131,Shubman Gill,Slow left arm orthodox,346,259,133.59
+1131,1132,Sikandar Raza,Left arm wrist spin,11,9,122.22
+1132,1133,Sikandar Raza,Left arm pace,18,13,138.46
+1133,1134,Sikandar Raza,Leg spin,31,21,147.62
+1134,1135,Sikandar Raza,Off spin,20,18,111.11
+1135,1136,Sikandar Raza,Right arm pace,74,62,119.35
+1136,1137,Sikandar Raza,Slow left arm orthodox,28,13,215.38
+1137,1138,Simarjeet Singh,Left arm pace,3,3,100.0
+1138,1139,Simarjeet Singh,Right arm pace,2,2,100.0
+1139,1140,Simarjeet Singh,Slow left arm orthodox,2,3,66.67
+1140,1141,Sumit Kumar,Left arm wrist spin,8,6,133.33
+1141,1142,Sumit Kumar,Left arm pace,0,3,0.0
+1142,1143,Sumit Kumar,Leg spin,2,8,25.0
+1143,1144,Sumit Kumar,Off spin,6,3,200.0
+1144,1145,Sumit Kumar,Right arm pace,2,4,50.0
+1145,1146,Swapnil Singh,Left arm wrist spin,9,9,100.0
+1146,1147,Swapnil Singh,Left arm pace,11,5,220.0
+1147,1148,Swapnil Singh,Leg spin,7,3,233.33
+1148,1149,Swapnil Singh,Right arm pace,12,8,150.0
+1149,1150,Tom Kohler-Cadmore,Left arm pace,20,15,133.33
+1150,1151,Tom Kohler-Cadmore,Leg spin,0,1,0.0
+1151,1152,Tom Kohler-Cadmore,Right arm pace,27,36,75.0
+1152,1153,Tom Kohler-Cadmore,Slow left arm orthodox,1,2,50.0
+1153,1154,Tabraiz Shamsi,Right arm pace,2,4,50.0
+1154,1155,Tristan Stubbs,Left arm pace,67,30,223.33
+1155,1156,Tristan Stubbs,Leg spin,73,47,155.32
+1156,1157,Tristan Stubbs,Off spin,46,26,176.92
+1157,1158,Tristan Stubbs,Right arm pace,184,112,164.29
+1158,1159,Tristan Stubbs,Slow left arm orthodox,35,18,194.44
+1159,1160,Trent Boult,Left arm wrist spin,13,7,185.71
+1160,1161,Trent Boult,Left arm pace,14,10,140.0
+1161,1162,Trent Boult,Leg spin,4,9,44.44
+1162,1163,Trent Boult,Off spin,0,1,0.0
+1163,1164,Trent Boult,Right arm pace,32,33,96.97
+1164,1165,Trent Boult,Slow left arm orthodox,8,4,200.0
+1165,1166,Tim Southee,Left arm pace,0,3,0.0
+1166,1167,Tim Southee,Leg spin,1,2,50.0
+1167,1168,Tim Southee,Right arm pace,4,11,36.36
+1168,1169,Tim Southee,Slow left arm orthodox,0,1,0.0
+1169,1170,Tim David,Left arm wrist spin,2,4,50.0
+1170,1171,Tim David,Left arm pace,206,94,219.15
+1171,1172,Tim David,Leg spin,53,45,117.78
+1172,1173,Tim David,Off spin,25,23,108.7
+1173,1174,Tim David,Right arm pace,361,208,173.56
+1174,1175,Tim David,Slow left arm orthodox,12,13,92.31
+1175,1176,Tom Curran,Left arm pace,10,9,111.11
+1176,1177,Tom Curran,Leg spin,4,3,133.33
+1177,1178,Tom Curran,Right arm pace,7,5,140.0
+1178,1179,Tim Seifert,Left arm pace,10,4,250.0
+1179,1180,Tim Seifert,Leg spin,0,3,0.0
+1180,1181,Tim Seifert,Right arm pace,16,16,100.0
+1181,1182,Travis Head,Left arm wrist spin,4,7,57.14
+1182,1183,Travis Head,Left arm pace,103,52,198.08
+1183,1184,Travis Head,Leg spin,52,27,192.59
+1184,1185,Travis Head,Off spin,91,54,168.52
+1185,1186,Travis Head,Right arm pace,287,139,206.47
+1186,1187,Travis Head,Slow left arm orthodox,6,6,100.0
+1188,1189,Tymal Mills,Right arm pace,0,3,0.0
+1189,1190,Tushar Deshpande,Right arm pace,0,2,0.0
+1190,1191,Tanush Kotian,Left arm pace,12,13,92.31
+1191,1192,Tanush Kotian,Leg spin,1,7,14.29
+1192,1193,Tanush Kotian,Right arm pace,11,11,100.0
+1193,1194,Tilak Varma,Left arm wrist spin,44,21,209.52
+1194,1195,Tilak Varma,Left arm pace,155,109,142.2
+1195,1196,Tilak Varma,Leg spin,224,144,155.56
+1196,1197,Tilak Varma,Off spin,126,104,121.15
+1197,1198,Tilak Varma,Right arm pace,497,339,146.61
+1198,1199,Tilak Varma,Slow left arm orthodox,110,76,144.74
+1199,1200,Umesh Yadav,Left arm wrist spin,1,2,50.0
+1200,1201,Umesh Yadav,Left arm pace,24,17,141.18
+1201,1202,Umesh Yadav,Leg spin,6,7,85.71
+1202,1203,Umesh Yadav,Off spin,0,1,0.0
+1203,1204,Umesh Yadav,Right arm pace,54,45,120.0
+1204,1205,Umesh Yadav,Slow left arm orthodox,1,1,100.0
+1205,1206,Umran Malik,Left arm pace,12,5,240.0
+1206,1207,Umran Malik,Leg spin,0,2,0.0
+1207,1208,Umran Malik,Right arm pace,11,9,122.22
+1208,1209,Virat Kohli,Left arm wrist spin,79,55,143.64
+1209,1210,Virat Kohli,Left arm pace,481,331,145.32
+1210,1211,Virat Kohli,Leg spin,294,238,123.53
+1211,1212,Virat Kohli,Off spin,102,95,107.37
+1212,1213,Virat Kohli,Right arm pace,856,573,149.39
+1213,1214,Virat Kohli,Slow left arm orthodox,282,262,107.63
+1215,1216,Vijay Shankar,Left arm wrist spin,8,8,100.0
+1216,1217,Vijay Shankar,Left arm pace,64,43,148.84
+1217,1218,Vijay Shankar,Leg spin,82,57,143.86
+1218,1219,Vijay Shankar,Off spin,20,11,181.82
+1219,1220,Vijay Shankar,Right arm pace,231,182,126.92
+1220,1221,Vijay Shankar,Slow left arm orthodox,56,46,121.74
+1221,1222,Vijayakanth Viyaskanth,Left arm pace,1,1,100.0
+1222,1223,Vijayakanth Viyaskanth,Leg spin,2,2,100.0
+1223,1224,Vijayakanth Viyaskanth,Right arm pace,4,2,200.0
+1224,1225,Vaibhav Arora,Left arm pace,4,5,80.0
+1225,1226,Vaibhav Arora,Off spin,1,1,100.0
+1226,1227,Vaibhav Arora,Right arm pace,4,10,40.0
+1227,1228,Venkatesh Iyer,Left arm wrist spin,12,16,75.0
+1228,1229,Venkatesh Iyer,Left arm pace,297,209,142.11
+1229,1230,Venkatesh Iyer,Leg spin,178,132,134.85
+1230,1231,Venkatesh Iyer,Off spin,122,102,119.61
+1231,1232,Venkatesh Iyer,Right arm pace,589,426,138.26
+1232,1233,Venkatesh Iyer,Slow left arm orthodox,114,78,146.15
+1234,1235,Vijaykumar Vyshak,Left arm pace,0,1,0.0
+1235,1236,Vijaykumar Vyshak,Leg spin,2,2,100.0
+1236,1237,Vijaykumar Vyshak,Right arm pace,12,10,120.0
+1237,1238,Virat Singh,Leg spin,4,6,66.67
+1238,1239,Virat Singh,Off spin,3,7,42.86
+1239,1240,Virat Singh,Right arm pace,8,11,72.73
+1240,1241,Virat Singh,Slow left arm orthodox,0,2,0.0
+1241,1242,Vishnu Vinod,Left arm wrist spin,8,8,100.0
+1242,1243,Vishnu Vinod,Left arm pace,5,5,100.0
+1243,1244,Vishnu Vinod,Right arm pace,24,18,133.33
+1244,1245,Vivrant Sharma,Left arm pace,13,11,118.18
+1245,1246,Vivrant Sharma,Leg spin,23,13,176.92
+1246,1247,Vivrant Sharma,Right arm pace,24,17,141.18
+1247,1248,Vivrant Sharma,Slow left arm orthodox,9,6,150.0
+1248,1249,Wayne Parnell,Right arm pace,2,5,40.0
+1249,1250,Will Jacks,Left arm wrist spin,31,19,163.16
+1250,1251,Will Jacks,Left arm pace,49,23,213.04
+1251,1252,Will Jacks,Leg spin,56,28,200.0
+1252,1253,Will Jacks,Off spin,8,10,80.0
+1253,1254,Will Jacks,Right arm pace,68,32,212.5
+1254,1255,Will Jacks,Slow left arm orthodox,17,16,106.25
+1256,1257,Wriddhiman Saha,Left arm wrist spin,2,4,50.0
+1257,1258,Wriddhiman Saha,Left arm pace,259,176,147.16
+1258,1259,Wriddhiman Saha,Leg spin,74,78,94.87
+1259,1260,Wriddhiman Saha,Off spin,56,55,101.82
+1260,1261,Wriddhiman Saha,Right arm pace,446,383,116.45
+1261,1262,Wriddhiman Saha,Slow left arm orthodox,118,106,111.32
+1262,1263,Washington Sundar,Left arm wrist spin,3,3,100.0
+1263,1264,Washington Sundar,Left arm pace,39,36,108.33
+1264,1265,Washington Sundar,Leg spin,19,32,59.38
+1265,1266,Washington Sundar,Off spin,3,4,75.0
+1266,1267,Washington Sundar,Right arm pace,122,93,131.18
+1267,1268,Washington Sundar,Slow left arm orthodox,6,12,50.0
+1268,1269,Yashasvi Jaiswal,Left arm wrist spin,11,6,183.33
+1269,1270,Yashasvi Jaiswal,Left arm pace,356,227,156.83
+1270,1271,Yashasvi Jaiswal,Leg spin,189,128,147.66
+1271,1272,Yashasvi Jaiswal,Off spin,151,91,165.93
+1272,1273,Yashasvi Jaiswal,Right arm pace,760,505,150.5
+1273,1274,Yashasvi Jaiswal,Slow left arm orthodox,100,70,142.86
+1274,1275,Yuzvendra Chahal,Left arm pace,6,7,85.71
+1275,1276,Yuzvendra Chahal,Leg spin,0,5,0.0
+1276,1277,Yuzvendra Chahal,Right arm pace,9,23,39.13
+1277,1278,Yash Dhull,Left arm pace,1,2,50.0
+1278,1279,Yash Dhull,Leg spin,1,2,50.0
+1279,1280,Yash Dhull,Off spin,4,7,57.14
+1280,1281,Yash Dhull,Right arm pace,1,5,20.0
+1281,1282,Yash Dhull,Slow left arm orthodox,9,7,128.57
+1282,1283,Yash Dayal,Right arm pace,0,1,0.0
+1283,1284,Yudhvir Singh,Left arm wrist spin,1,2,50.0
+1284,1285,Yudhvir Singh,Left arm pace,0,2,0.0
+1285,1286,Yudhvir Singh,Leg spin,6,5,120.0
+1286,1287,Yudhvir Singh,Right arm pace,15,7,214.29
