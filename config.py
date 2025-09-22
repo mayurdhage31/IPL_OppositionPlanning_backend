@@ -24,6 +24,8 @@ class Settings:
         "http://localhost:3000",  # Local React development
         "http://127.0.0.1:3000",  # Alternative local address
         "https://iploppositionplanningbackend-game-planner.up.railway.app",  # Railway backend
+        "https://ipl-opposition-planning-frontend.vercel.app",  # Vercel frontend
+        "https://*.vercel.app",  # All Vercel deployments
         "*"  # Allow all origins for now (can be restricted later)
     ]
     

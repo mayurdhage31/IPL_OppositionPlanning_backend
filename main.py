@@ -15,9 +15,9 @@ app = FastAPI(title="IPL Opposition Planning API", version="1.0.0")
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.CORS_ORIGINS,
+    allow_origins=["*"],  # Allow all origins for now
     allow_credentials=False,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
 
@@ -35,7 +35,7 @@ TEAM_PLAYERS = {
     ],
     'Royal Challengers Bangalore': [
         'Virat Kohli', 'Faf du Plessis', 'Glenn Maxwell', 'Dinesh Karthik',
-        'Rajat Patidar', 'AB de Villiers', 'Wanindu Hasaranga', 'Harshal Patel', 
+        'Rajat Patidar', 'AB de Villiers',  'Harshal Patel', 'Yash Dayal',
         'Mohammed Siraj', 'Josh Hazlewood', 'Akash Deep'
     ],
     'Kolkata Knight Riders': [
@@ -70,7 +70,7 @@ TEAM_PLAYERS = {
     ],
     'Lucknow Super Giants': [
         'KL Rahul', 'Quinton de Kock', 'Marcus Stoinis', 'Deepak Hooda',
-        'Ayush Badoni', 'Krunal Pandya', 'Jason Holder', 'Avesh Khan',
+        'Ayush Badoni', 'Jason Holder', 'Avesh Khan',
         'Dushmantha Chameera', 'Ravi Bishnoi', 'Mohsin Khan'
     ]
 }
