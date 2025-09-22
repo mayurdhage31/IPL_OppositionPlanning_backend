@@ -103,18 +103,29 @@ venue_data = None
 async def load_data():
     global batting_data, team_data, batter_vs_bowler_data, team_vs_bowler_data, venue_data
     try:
-        batting_data = pd.read_csv(DATA_DIR / "IPL_21_24_Batting.csv")
-        team_data = pd.read_csv(DATA_DIR / "IPL_Team_BattingData_21_24.csv")
-        batter_vs_bowler_data = pd.read_csv(DATA_DIR / "Batters_StrikeRateVSBowlerType.csv")
-        team_vs_bowler_data = pd.read_csv(DATA_DIR / "Team_vs_BowlingType.csv")
-        venue_data = pd.read_csv(DATA_DIR / "IPL_Venue_details.csv")
-        print("Data loaded successfully!")
+        print(f"Loading data from: {DATA_DIR}")
+        print(f"Data directory exists: {DATA_DIR.exists()}")
+        
+        if DATA_DIR.exists():
+            batting_data = pd.read_csv(DATA_DIR / "IPL_21_24_Batting.csv")
+            team_data = pd.read_csv(DATA_DIR / "IPL_Team_BattingData_21_24.csv")
+            batter_vs_bowler_data = pd.read_csv(DATA_DIR / "Batters_StrikeRateVSBowlerType.csv")
+            team_vs_bowler_data = pd.read_csv(DATA_DIR / "Team_vs_BowlingType.csv")
+            venue_data = pd.read_csv(DATA_DIR / "IPL_Venue_details.csv")
+            print("Data loaded successfully!")
+        else:
+            print("Data directory not found, using hardcoded data only")
     except Exception as e:
         print(f"Error loading data: {e}")
+        print("Continuing with hardcoded data only")
 
 @app.get("/")
 async def root():
-    return {"message": "IPL Opposition Planning API is running!"}
+    return {"message": "IPL Opposition Planning API is running!", "status": "healthy"}
+
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy", "message": "API is running"}
 
 @app.get("/config")
 async def get_config():
