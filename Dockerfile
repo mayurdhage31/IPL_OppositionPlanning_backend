@@ -17,8 +17,8 @@ COPY . .
 RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
 USER appuser
 
-# Expose the port the app runs on (Railway will set PORT env var)
-EXPOSE $PORT
+# Expose the port the app runs on (Railway will set PORT env var at runtime)
+EXPOSE 8000
 
 # Health check using python requests (use PORT env var)
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
