@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import pandas as pd
 import json
-import json
 from typing import List, Dict, Any, Optional
 import os
 import sys
@@ -510,4 +509,8 @@ async def get_team_bowling_stats(team_name: str):
     }
 
 if __name__ == "__main__":
-    uvicorn.run(app, host=settings.HOST, port=settings.PORT)
+    import os
+    port = int(os.getenv("PORT", "8000"))
+    host = "0.0.0.0"
+    print(f"Starting server on {host}:{port}")
+    uvicorn.run(app, host=host, port=port)
