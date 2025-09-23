@@ -13,7 +13,7 @@ class Settings:
     
     # Server Configuration
     HOST: str = os.getenv("HOST", "0.0.0.0")
-    PORT: int = int(os.getenv("PORT", "8000"))
+    PORT: int = int(os.getenv("PORT", "8000"))  # Railway will override this
     
     # Railway Configuration
     RAILWAY_HOST: str = os.getenv("RAILWAY_HOST", "iploppositionplanningbackend-game-planner.up.railway.app")

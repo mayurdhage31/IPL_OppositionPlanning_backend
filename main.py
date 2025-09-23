@@ -124,7 +124,7 @@ TEAM_PLAYERS = {
     'Gujarat Titans': [
         'David Miller', 'Sai Sudharsan',
         'Rahul Tewatia', 'Wriddhiman Saha', 'Rashid Khan', 'Mohammed Shami', 
-        'Lockie Ferguson', 'Alzarri Joseph', 'Yash Dayal'
+        'Lockie Ferguson', 'Alzarri Joseph'
     ],
     'Lucknow Super Giants': [
         'KL Rahul', 'Quinton de Kock', 'Marcus Stoinis', 'Deepak Hooda',
